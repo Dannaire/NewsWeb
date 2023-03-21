@@ -5,17 +5,17 @@ import Link from 'next/link'
 // import { Link } from "react-router-dom";
 
 function Nav() {
-  const [isOpen, setIsOpen] = useState(false);
+//   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
         <nav className="bg-navbcg border-gray-200 dark:bg-gray-900 h-20">
     <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
         <a href="https://flowbite.com" class="flex items-center">
             <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
-            <span className="self-center text-xl font-semibold whitespace-nowrap text-white">Flowbite</span>
+            <span className="self-center text-xl font-semibold whitespace-nowrap text-white">FlowNews</span>
         </a>
         <div className="flex items-center">
-            <a href="tel:5541251234" className="mr-6 text-sm font-medium text-gray-500 text-white hover:underline">(555) 412-1234</a>
+            <a href="tel:5541251234" className="mr-6 text-sm font-medium text-gray-500 text-white hover:underline">(62) 412-1234</a>
             <a href="#" className="text-sm font-medium text-blue-600 text-white hover:underline">Login</a>
         </div>
     </div>
