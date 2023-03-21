@@ -8,7 +8,7 @@ function Card() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://api.jsonbin.io/v3/b/6419b700ebd26539d0929afb');
+        const response = await fetch('https://api.jsonbin.io/v3/b/6419d536c0e7653a058beae8');
         const data = await response.json();
         setSearchResults(data.record);
         console.log('API data fetched successfully!');
@@ -23,7 +23,7 @@ function Card() {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-5 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
-      {searchResults.length > 0 && searchResults.map((result) => (
+      {searchResults.map((result) => (
           <div key={result.id} className="overflow-hidden transition-shadow duration-300 bg-white rounded">
             <a href="/" aria-label="Article">
               <img

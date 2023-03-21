@@ -5,6 +5,8 @@ import styles from "@/styles/Home.module.css";
 import Nav from "../Components/nav";
 import Card from "../Components/card";
 import Hero from "../Components/hero";
+import Blogsection from "../Components/blogsection";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +22,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Card />
+      <Blogsection/>
     </>
   );
 }
