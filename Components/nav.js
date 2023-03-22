@@ -21,7 +21,7 @@ function Nav() {
               <li>
                 <Link
                   href="/"
-                  className="border-b-2 pb-[2px] border-transparent text-gray-900 dark:text-white hover:border-white duration-300"
+                  className="nav"
                   aria-current="page"
                 >
                   Home
@@ -30,7 +30,7 @@ function Nav() {
               <li>
                 <Link
                   href="/business"
-                  className="border-b-2 pb-[2px] border-transparent text-gray-900 dark:text-white hover:border-white duration-300"
+                  className="nav"
                 >
                   Business
                 </Link>
@@ -38,7 +38,7 @@ function Nav() {
               <li>
                 <Link
                   href="/sport"
-                  className="border-b-2 pb-[2px] border-transparent text-gray-900 dark:text-white hover:border-white duration-300"
+                  className="nav"
                 >
                   Sport
                 </Link>
@@ -46,7 +46,7 @@ function Nav() {
               <li>
                 <Link
                   href="/health"
-                  className="border-b-2 pb-[2px] border-transparent text-gray-900 dark:text-white hover:border-white duration-300"
+                  className="nav"
                 >
                   Health
                 </Link>
@@ -54,7 +54,7 @@ function Nav() {
               <li>
                 <Link
                   href="/travel"
-                  className="border-b-2 pb-[2px] border-transparent text-gray-900 dark:text-white hover:border-white duration-300"
+                  className="nav"
                 >
                   Travel
                 </Link>
@@ -62,7 +62,7 @@ function Nav() {
               <li>
                 <Link
                   href="/world"
-                  className="border-b-2 pb-[2px] border-transparent text-gray-900 dark:text-white hover:border-white duration-300"
+                  className="nav"
                 >
                   World
                 </Link>
