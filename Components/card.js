@@ -38,7 +38,7 @@ function Card() {
               </p>
               <a href="/">
                 <a aria-label="Article" className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700">
-                  <p className="text-2xl font-bold leading-5">{result.title}</p>
+                  <p className="text-2xl font-bold leading-7">{result.title}</p>
                 </a>
               </a>
               <p className="mb-4 text-gray-700">

@@ -6,6 +6,7 @@ import Nav from "../Components/nav";
 import Card from "../Components/card";
 import Hero from "../Components/hero";
 import Blogsection from "../Components/blogsection";
+import Bloglink from "../Components/bloglink";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -23,6 +24,7 @@ export default function Home() {
       <Hero />
       <Card />
       <Blogsection/>
+      <Bloglink/>
     </>
   );
 }
