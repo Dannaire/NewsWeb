@@ -16,7 +16,7 @@ function Nav() {
               alt="Flowbite Logo"
             />
             <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
-              Daily News Active
+              Daily News Actual
             </span>
           </Link>
           <div className="flex items-center">
