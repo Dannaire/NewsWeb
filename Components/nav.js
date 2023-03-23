@@ -4,7 +4,7 @@ import Link from "next/link";
 function Nav() {
   return (
     <div>
-      <nav className="bg-navbcg border-gray-200 dark:bg-gray-900 h-20 w-full fixed">
+      <nav className="bg-navbcg border-gray-200 dark:bg-gray-900 h-20 w-full fixed z-10">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
           <Link href="/" class="flex items-center">
             <img
