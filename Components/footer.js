@@ -73,20 +73,20 @@ function footer() {
                 <div>
                   <Link
                     href="https://kelompok5-react.vercel.app/"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="footer"
                     target="_blank"
                   >
                     Company
                   </Link>
                   <Link
                     href="/contact"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="footer"
                   >
                     Advertisement
                   </Link>
                   <Link
                     href="#"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="footer"
                   >
                     More Articles
                   </Link>
@@ -95,19 +95,19 @@ function footer() {
                 <div>
                   <Link
                     href="/"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="footer"
                   >
                     Home
                   </Link>
                   <Link
                     href="/business"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="footer"
                   >
                     Business
                   </Link>
                   <Link
                     href="/sport"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="footer"
                   >
                     Sport
                   </Link>
@@ -116,29 +116,29 @@ function footer() {
                 <div>
                   <Link
                     href="/health"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="footer"
                   >
                     Health
                   </Link>
                   <Link
                     href="/travel"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="footer"
                   >
                     Travel
                   </Link>
                   <Link
                     href="/world"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="footer"
                   >
                     World
                   </Link>
                 </div>
 
                 <div>
-                  <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
+                  <span className="footer">
                     +1 911 911 9111
                   </span>
-                  <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
+                  <span className="footer">
                     dailynews@actual.com
                   </span>
                 </div>

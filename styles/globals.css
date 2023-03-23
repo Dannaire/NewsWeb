@@ -6,4 +6,6 @@
 @apply border-b-2 pb-[2px] border-transparent text-gray-900 dark:text-white hover:border-white duration-300
 }
 
-
+.footer {
+@apply block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline
+}
