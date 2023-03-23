@@ -1,181 +1,451 @@
 [{
         "id": 1,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Skala Bisnis Astra Financial",
+        "desc": "Anak usaha PT Astra International Tbk (ASII), PT Sedaya Multi Investama (Astra Financial) melihat tren positif pembiayaan otomotif pada 2023. Direktur Astra Financial Handoko Liem mengat",
+        "author": "Dian Putri",
+        "date": "2022-03-21",
+        "image": "/astra.jpg",
+        "category": "bussines"
     },
     {
         "id": 2,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Dominasi Mobil Jepang Terancam Oleh China",
+        "desc": "Lambatnya pabrikan Jepang dalam mengadopsi mobil listrik, membuat mereka kian terancam oleh agresivitas perusahaan asal China. Seperti diketahui, pasar otomotif dunia selama ini masih didominasi oleh Jepang.",
+        "author": "Aisyah Syakira",
+        "date": "2022-03-10",
+        "image": "/jepang.jpg",
+        "category": "bussines"
     },
     {
         "id": 3,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "China & Rusia Makin Rapat di Sektor Energi, Ancam Batu Bara Indonesia?",
+        "desc": "Hingga saat ini, Amerika Serikat dan China masih menduduki peringkat teratas negara penyumbang emisi dunia. Tingginya tingkat emisi kedua negara tersebut salah satunya diakibatkan tingginya penggunaan batubara sebagai sumber energi bagi pembangkit listrik di AS maupun China.",
+        "author": "Dian Putri",
+        "date": "2022-02-20",
+        "image": "/china.jpg",
+        "category": "bussines"
     },
     {
         "id": 4,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Bisnis Kartu Kredit: Adu Strategi BRI, Mega, CIMB, Hingga Bank Mandiri (BMRI)",
+        "desc": "PT Bank Mandiri (Persero) Tbk (BMRI) membukukan pertumbuhan positif kinerja transaksi kartu kredit sepanjang tahun 2022. Untuk menjaga kinerja tersebut perseroan juga telah mengusung strategi di tahun 2023 ini.",
+        "author": "Mike Wheeler",
+        "date": "2022-01-18",
+        "image": "/bank.jpg",
+        "category": "bussines"
     },
     {
         "id": 5,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Kode Keras JP Morgan di Saham Semen Indonesia SMGR",
+        "desc": "JP Morgan menebalkan rating overweight saham PT Semen Indonesia (Persero) Tbk. (SMGR) seiring akumulasi oleh firma investasi dan layanan keuangan itu dalam enam bulan terakhir",
+        "author": "Aisyah Syakira",
+        "date": "2022-02-20",
+        "image": "/semen.jpg",
+        "category": "bussines"
     },
     {
         "id": 6,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Kiprah Bank Digital Afiliasi Anthoni Salim di Filipina",
+        "desc": "Angan midas Anthoni Salim boleh jadi tak begitu kelihatan dalam bisnis bank digital di Indonesia. Sepak terjang PT Allo Bank Indonesia Tbk (BBHI), bank digital yang disuntik sang konglomerat pada awal 2022, relatif kalah berkilau dari agresivitas Seabank, Bank Jago, hingga Bank Neo",
+        "author": "Dian Putri",
+        "date": "2022-01-17",
+        "image": "/filip.jpg",
+        "category": "bussines"
     },
     {
         "id": 7,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Daya Pikat Dividen Gemuk United Tractors (UNTR)",
+        "desc": "Emiten alat berat Astra, PT United Tractors Tbk. (UNTR) menjanjikan dividen tahun buku 2022 hingga Rp26 triliun, melampaui total laba bersih tahun lalu yang sebesar Rp21 triliun",
+        "author": "Jonathan",
+        "date": "2022-08-26",
+        "image": "/traktor.jpg",
+        "category": "bussines"
     },
     {
         "id": 8,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Atur Siasat Redam Gejolak Harga Pangan Jelang Ramadan",
+        "desc": "Mayoritas harga pangan terus mengalami lonjakan terutama menjelang bulan Ramadan. Pemerintah pun diminta agar mengendalikan harga pangan",
+        "author": "Nancy",
+        "date": "2022-03-05",
+        "image": "/pangan.jpg",
+        "category": "bussines"
     },
     {
         "id": 9,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Tragedi Depo Plumpang dan PR Besar Pertamina",
+        "desc": "Insiden kebakaran Terminal Bahan Bakar Minyak (TBBM) Plumpang atau Depo Plumpang di Jakarta Utara milik PT Pertamina (Persero), mengingatkan kembali betapa mendesaknya pembangunan buffer zone",
+        "author": "Tiffany",
+        "date": "2022-03-23",
+        "image": "/depo.jpg",
+        "category": "bussines"
     },
     {
         "id": 10,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Ketika Ambisi Kartel Nikel Indonesia Ditolak Berbagai Sisi",
+        "desc": "Ambisi untuk membentuk kartel negara-negara produsen nikel, pernah diapungkan oleh Indonesia pada tahun lalu. Namun demikian, keinginan Indonesia tersebut tampak tak mendapatkan respons yang sesuai harapan dari negara-negara mitra",
+        "author": "Doni Syahputra",
+        "date": "2022-01-17",
+        "image": "/nikel.jpg",
+        "category": "bussines"
     },
     {
         "id": 11,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Chico Cedera Engkel Lawan Axelsen, Langsung kembali ke Jakarta",
+        "desc": "Chico mengalami cedera saat melakoni babak pertama Swiss Open 2023 melawan tunggal putra ranking satu dunia asal Denmark, Viktor Axelsen, pada Rab, 22 Maret 2023. Mentas di St. Jakobshalle, Basel, Swiss, Chico mundur dari pertandingan setelah berlaga selama lima menit",
+        "author": "Nancy Daily",
+        "date": "2023-03-12",
+        "image": "/chico.jpeg",
+        "category": "Sport"
     },
     {
         "id": 12,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Erick Tohir:PSSI All Stars vs Joenbuk Digelar 15 Juni",
+        "desc": "Ketua Umum PSSI Erick Thohir mengatakan pertandingan PSSI All Stars vs Jeonbuk Hyundai Motors bakal digelar 15 Juni 2023 di Indonesia. Hal tersebut diungkapkan Erick usai bertemu bos Hyundari Motors, Chung Eui Son di Korea Selatan.",
+        "author": "Tiffany",
+        "date": "2023-03-10",
+        "image": "/erick.jpg",
+        "category": "Sport"
     },
     {
         "id": 13,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Premiere League Disebut Lige Terbaik untuk Muslim",
+        "desc": "Doucoure kemudian membandingkan kehidupan pesepakbola muslim di Inggris dan Prancis. Pemain yang pernah memperkuat timnas Prancis di level usia mengatakan Inggris jauh lebih nyaman bagi pemain muslim",
+        "author": "Jonathan",
+        "date": "2023-03-12",
+        "image": "/league.jpeg",
+        "category": "Sport"
     },
     {
         "id": 14,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Prediksi Italia vs Inggris di Kualifikasi Euro 2024",
+        "desc": "Italia tidak terkalahkan melawan Inggris sejak menang di Euro 2020, meraih satu hasil imbang dan satu kali menang. Jika ditarik lebih jauh lagi, Italia tidak pernah kalah dari The Three Lions sejak laga persahabatan 15 Agustus 2012",
+        "author": "Aisyah Syakira",
+        "date": "2023-03-10",
+        "image": "/inggris.jpg",
+        "category": "Sport"
     },
     {
         "id": 15,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Latihan Perdana Timnas Burundi di JIS",
+        "desc": "Timnas Burundi melakoni latihan perdana di lapangan latihan Jakarta International Stadium (JIS), Rabu (22/3), jelang melawan Indonesia di FIFA Matchday",
+        "author": "Doni Syahputra",
+        "date": "2023-03-20",
+        "image": "/timnas.jpg",
+        "category": "Sport"
     },
     {
         "id": 16,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Justin Hubner Gabung Timnas Belanda U-20",
+        "desc": "Kepastian itu terlihat dari postingan stories akun Instagram milik Hubner. Dalam unggahan itu Hubner memperlihatkan lapangan Marbella Football Center yang akan menjadi lokasi pertandingan timnas Belanda U-20.",
+        "author": "Tiffany",
+        "date": "2023-03-21",
+        "image": "/justin.jpeg",
+        "category": "Sport"
     },
     {
         "id": 17,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Kronologi Pitha Mentari Emosional di Swiss Open",
+        "desc": "Ini adalah pertandingan pertama Pitha sejak Syabda Belawa meninggal dunia dalam kecelakaan di Tol Pemalang, Jawa Tengah, Senin (20/3) dini hari WIB",
+        "author": "Dian Putri",
+        "date": "2023-03-18",
+        "image": "/pitha.jpeg",
+        "category": "Sport"
     },
     {
         "id": 18,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Wakil Indonesia Bertumbangan di Swiss Open 2023",
+        "desc": "Ganda putra Leo Rolly Carnando/Daniel Marthin jadi wakil Indonesia pertama yang tumbang di babak pertama. The Babies di luar dugaan takluk dari pasangan non unggulan asal Denmark, Jeppe Bay/Lasse Molhede pada hari pertama babak 32 besar Swiss Open",
+        "author": "Mike Wheeler",
+        "date": "2023-03-20",
+        "image": "/wakil.jpg",
+        "category": "Sport"
     },
     {
         "id": 19,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Netizen Terharu Lihat Perjuangan Pitha di Swiss Open",
+        "desc": "Pitha bertanding di babak pertama Swiss Ope 2023 dalam kondisi tengah berduka. Ia baru saja kehilangan sang kekasih, Syabda Perkasa Belawa yang meninggal karena mengalami kecelakaan di tol Pemalang, Jawa Tengah, 20 Maret lalu",
+        "author": "Doni Syahputra",
+        "date": "2023-03-18",
+        "image": "/lolos.jpeg",
+        "category": "Sport"
     },
     {
         "id": 20,
-        "headline": "",
-        "desc": "",
-        "author": "",
-        "date": "",
-        "image": "",
-        "tags": ""
+        "headline": "Daftar 7 Wakil Indonesia Lolos ke 16 Besar Swiss Open 2023",
+        "desc": "Sederet wakil Indonesia bertumbangan di hari kedua babak 32 besar Swiss Open 2023. Dari 11 wakil yang bertanding hanya empat yang bisa lolos ke babak 16 besar",
+        "author": "Tiffany",
+        "date": "2023-03-20",
+        "image": "/swiss.jpeg",
+        "category": "Sport"
+    },
+    {
+        "id": 21,
+        "headline": "Menu Daging dan Diolah dengan Minyak Masih Jadi Favorit Selama Puasa",
+        "desc": "Konsumsi makanan dengan lauk daging dan juga diolah dengan minyak masih menjadi pilihan banyak masyarakat selama berpuasa. Hal itu terungkap dalam survei yang dilakukan oleh Health Collaborative Center (HCC)",
+        "author": "Dian Putri",
+        "date": "2023-01-28",
+        "image": "/meat.jpg",
+        "category": "health"
+    },
+    {
+        "id": 22,
+        "headline": "Ketahui Manfaat Ibadah Puasa untuk Penderita Diabetes menurut Ahli",
+        "desc": "Ketahui Manfaat Ibadah Puasa untuk Penderita Diabetes menurut Ahli",
+        "author": "Tiffany",
+        "date": "2022-03-04",
+        "image": "/diabetes.jpg",
+        "category": "health"
+    },
+    {
+        "id": 23,
+        "headline": "Bahan Aktif Terbaru dalam Skincare yang Bakal Tren",
+        "desc": "Penelitian-penelitian seputar kesehatan kulit dan kecantikan terus berkembang untuk menciptakan produk yang bisa menjawab kebutuhan konsumen. Dalam penelitian terbaru terdapat beberapa bahan aktif yang diprediksi bakal menjadi tren dan digunakan secara luas",
+        "author": "Jonathan",
+        "date": "2022-05-17",
+        "image": "/skincare.jpg",
+        "category": "health"
+    },
+    {
+        "id": 24,
+        "headline": "10 Obat Alami untuk Sariawan, Madu hingga Teh Kamomil",
+        "desc": "Memiliki sariawan bisa sangat tidak nyaman dan mengganggu. Hal itu karena sariawan sering kali merusak napsu makan, makan makanan pedas, asin, atau asam bisa membuat nyeri semakin buruk.",
+        "author": "Shintaloka Pradita Sicca",
+        "date": "2022-05-17",
+        "image": "/teh.jpg",
+        "category": "health"
+    },
+    {
+        "id": 25,
+        "headline": "Cara agar Tidak Burnout, Kelelahan Mental karena Bekerja",
+        "desc": "Setiap pekerjaan pasti memiliki tantangan, hambatan, dan kesulitannya masing-masing. Seringnya ini menjadi salah satu faktor yang membuat seseorang merasa sangat lelah sehingga sebuah pekerjaan tidak dapat dikerjakan dengan cepat dan menguras waktu.",
+        "author": "Aisyah Syakira",
+        "date": "2022-05-17",
+        "image": "/mental.jpg",
+        "category": "health"
+    },
+    {
+        "id": 26,
+        "headline": "Apakah Burnout dan Stres Sama?",
+        "desc": "Ketika seseorang mengalami burnout, ia akan hilang minat pada semua aktivitasnya seperti pekerjaan, hobi, dan lainnya. Sedangkan bila seseorang mengalami stres, minat pada aktivitas sehari-hari akan muncul kembali setelah stres mereda.",
+        "author": "Dian Putri",
+        "date": "2022-05-17",
+        "image": "/burnout.jpeg",
+        "category": "health"
+    },
+    {
+        "id": 27,
+        "headline": "Ketahui Panduan Makan untuk Mengontrol Gula Darah",
+        "desc": "Untuk pencegahan, kita dapat mengontrol gula darah dengan menjaga pola makan. Membatasi asupan gula dan karbohidrat merupakan kunci utama panduan makan untuk mengontrol gula darah",
+        "author": "Doni Syahputra",
+        "date": "2022-05-17",
+        "image": "/gula.jpg",
+        "category": "health"
+    },
+    {
+        "id": 28,
+        "headline": "Manfaat Mengejutkan Mendengarkan Musik Metal untuk Kesehatan Mental",
+        "desc": "Perlu diketahui, otak manusia merespons musik dengan cara yang menarik. Banyak orang mungkin mengidentifikasi musik sebagai bentuk ekspresi emosional",
+        "author": "Mike Wheeler",
+        "date": "2022-05-17",
+        "image": "/musik.jpeg",
+        "category": "health"
+    },
+    {
+        "id": 29,
+        "headline": "Kebiasaan yang Menyebabkan Gula Darah Tinggi, Pantang Disepelekan",
+        "desc": "Lonjakan gula darah yang tidak tertangani bisa memicu diabetes, penyakit jantung, masalah pankreas, hingga stroke. Untuk itu, kita perlu mengetahui apa saja kebiasaan yang memicu kenaikan kadar gula darah",
+        "author": "Mike Wheeler",
+        "date": "2022-05-17",
+        "image": "/gulaDarah.jpg",
+        "category": "health"
+    },{
+        "id": 30,
+        "headline": "Bye-Bye Bau Mulut Selama Ramadhan",
+        "desc": "Selama Ramadan, umat muslim berpuasa sebulan penuh. Sepanjang hari, mereka tidak makan dan minum sehingga menyebabkan mulut kering dan kerap memicu bau tidak sedap. Kondisi ini memicu rasa tidak nyaman",
+        "author": "Jonathan",
+        "date": "2022-05-17",
+        "image": "/mulut.jpg",
+        "category": "health"
+    },
+    {
+        "id": 31,
+        "headline": "Prediksi Harga Tiket Mudik 2023 Via Pesawat, Bus dan Kereta",
+        "desc": "Berdasarkan data dari Kementerian Perhubungan, jumlah pemudik pada tahun 2022 melonjak pesat hingga 85 juta orang. Angka ini merupakan rekor yang paling tinggi dibandingkan selama periode mudik 10 tahun terakhir",
+        "author": "Jonathan",
+        "date": "2022-05-17",
+        "image": "/mudik.jpg",
+        "category": "travel"
+    },
+    {
+        "id": 32,
+        "headline": "Prediksi Harga Tiket Mudik 2023 Via Pesawat, Bus dan Kereta",
+        "desc": "Berdasarkan data dari Kementerian Perhubungan, jumlah pemudik pada tahun 2022 melonjak pesat hingga 85 juta orang. Angka ini merupakan rekor yang paling tinggi dibandingkan selama periode mudik 10 tahun terakhir",
+        "author": "Dian Putri",
+        "date": "2022-05-17",
+        "image": "/mudik.jpg",
+        "category": "travel"
+    },
+    {
+        "id": 33,
+        "headline": "Pemkot Semarang & Solo Kolaborasi Kembangkan Pariwisata",
+        "desc": "Pemerintah Kota Semarang jalin kerja sama dengan Pemerintah Kota Solo. Kerja sama tersebut bertujuan untuk pengembangan pariwisata dan budaya di kedua kota tersebut",
+        "author": "Nancy",
+        "date": "2022-05-17",
+        "image": "/pemkot.jpeg",
+        "category": "travel"
+    },
+    {
+        "id": 34,
+        "headline": "Taiwan Rela Kasih Ongkos Rp. 2,5 Juta buat Setiap Turis Asing yang datang",
+        "desc": "Dilansir dari CNBC Make It, Selasa (7/3/2023), pemerintah Taiwan menawarkan turisnya uang sebesar NT$ 5.000 dolar atau sekitar Rp 2,5 juta (kurs Rp 500/NT$) per pelancong.",
+        "author": "Tiara Dina",
+        "date": "2022-05-17",
+        "image": "/taiwan.jpeg",
+        "category": "travel"
+    },
+    {
+        "id": 35,
+        "headline": "Pengembangan Wisata di Timur RI Dinilai Upaya Pemerataan Pembangunan",
+        "desc": "Wakil Ketua MPR RI Lestari Moerdijat mengungkapkan upaya pengembangan pariwisata di kawasan timur Indonesia merupakan langkah strategis yang harus dikedepankan",
+        "author": "Tiara Dina",
+        "date": "2022-05-17",
+        "image": "/pariwisata.jpg",
+        "category": "travel"
+    },
+    {
+        "id": 36,
+        "headline": "Siap-siap Turis China Serbu Bali : Direct Flight Tiap Hari Mulai Maret 2023",
+        "desc": "Kepala Dinas Pariwisata Provinsi Bali Tjok Bagus Pemayun menyebut penerbangan langsung (direct flight) dari China ke Bali akan dilakukan setiap hari mulai Maret 2023.",
+        "author": "Tiffany",
+        "date": "2022-05-17",
+        "image": "/bali.jpeg",
+        "category": "travel"
+    },
+    {
+        "id": 37,
+        "headline": "Desa Wisata Sindangkasih Minta Pemkab Garut Sediakan Akses Internet",
+        "desc": "Desa Sindangkasih di Kecamatan Cilawu menjadi salah satu desa wisata yang ada di Kabupaten Garut. Ciri khas dari desa ini adalah potensi air deras yang dijadikan tempat wisata river tubing",
+        "author": "Aisyah Syakira",
+        "date": "2022-05-17",
+        "image": "/garut.jpeg",
+        "category": "travel"
+    },
+    {
+        "id": 38,
+        "headline": "Tak Ada Lagi Wisata Hiu di Pulau Guadalue Meksiko",
+        "desc": "Sebuah pulau di Meksiko sempat menawarkan wisata hiu yakni dengan melihatnya secara dekat. Namun karena faktor pelestarian, wisata ini ditutup oleh pemerintah",
+        "author": "Mike Wheeler",
+        "date": "2022-05-17",
+        "image": "/hiu.jpg",
+        "category": "travel"
+    },
+    {
+        "id": 39,
+        "headline": "Dinas Pariwisata Pede Mobil dan Motor Listrik Tambah Daya Pikat Bali",
+        "desc": "Kepala Dinas Pariwisata Bali Tjok Bagus Pemayun meyakini penggunaan kendaraan listrik akan menambah daya tarik Bali. Apalagi, jika mobil listrik maupun sepeda motor listrik seliweran",
+        "author": "Jonathan",
+        "date": "2022-05-17",
+        "image": "/motor.jpg",
+        "category": "travel"
+    },
+    {
+        "id": 40,
+        "headline": "Pariwisata Sabang Bangkit, 8 Kapal Pesiar Akan Singgah di 2023",
+        "desc": "Pariwisata Sabang Bangkit, 8 Kapal Pesiar Akan Singgah di 2023. Kapal pesiar MV. Seabourn Encore yang membawa ratusan turis singgah di Sabang, Aceh. ",
+        "author": "Dian Putri",
+        "date": "2022-05-17",
+        "image": "/kapal.jpg",
+        "category": "travel"
+    },
+    {
+        "id": 41,
+        "headline": "Warga Palestina Bersihkan Aqsa Sambut Ramadhan",
+        "desc": "Warga Palestina dari berbagai penjuru datang berbondong-bondong membersihkan kompleks Masjid Al-Aqsa untuk menyambut bulan suci Ramadan 1444 H",
+        "author": "Aisyah Syakira",
+        "date": "2022-05-18",
+        "image": "/aqsa.jpeg",
+        "category": "World"
+    },
+    {
+        "id": 42,
+        "headline": "Israel Batasi Palestin ke Masjid Al Aqsa",
+        "desc": "Israel mengumumkan berbagai aturan untuk warga Palestina selama bulan Ramadan, salah satunya pembatasan mengunjungi Masjid Al-Aqsa. ",
+        "author": "Tia Kiana",
+        "date": "2022-06-17",
+        "image": "/palestina.jpeg",
+        "category": "World"
+    },
+    {
+        "id": 43,
+        "headline": "Beijing Diserbu Badai Pasir, Polusi Udara Melonjak ke Tingkat Bahaya",
+        "desc": "Awan tebal itu menyelimuti ibu kota China dan membuat indeks kualitas polusi udara melonjak ke tingkat berbahaya yaitu PM10, dengan partikel polusi berdiameter kurang dari 10 mikrometer",
+        "author": "Dian Hana",
+        "date": "2022-09-01",
+        "image": "/badai.jpeg",
+        "category": "World"
+    },
+    {
+        "id": 44,
+        "headline": "China Klaim Usir Kapal Perang AS dari Laut China Selatan",
+        "desc": "China mengklaim kedaulatan atas hampir seluruh LCS, jalur air strategis yang dilalui perdagangan triliunan dolar setiap tahun, meski pengadilan internasional memutuskan pernyataan itu tidak punya dasar hukum",
+        "author": "Nafa Putri",
+        "date": "2022-09-01",
+        "image": "/beijing.jpg",
+        "category": "World"
+    },
+    {
+        "id": 45,
+        "headline": "Platform Pencarian Kerja Indeed Akan Lakukan PHK Besar-besaran",
+        "desc": "Platform pencarian kerja secara online yang berbasis di Amerika Serikat, Indeed, mengumumkan akan memangkas sekitar 2.200 pekerja atau 15% dari keseluruhan tenaga kerjanya",
+        "author": "Tendi Mahadi",
+        "date": "2022-06-17",
+        "image": "/kerja.jpg",
+        "category": "World"
+    },
+    {
+        "id": 46,
+        "headline": "Bank Dunia: Biaya Pembangunan Kembali Ukraina Bisa Mencapai US$ 411 Miliar",
+        "desc": "Bank Dunia baru-baru ini memperkirakan bahwa Ukraina akan membutuhkan hingga US$ 411 miliar atau setara dengan Rp 6,19 triliun untuk membangun kembali negaranya yang hancur akibat perang.",
+        "author": "Prihastomo Wahyu Widodo",
+        "date": "2022-06-17",
+        "image": "/ukraina.jpeg",
+        "category": "World"
+    },
+    {
+        "id": 47,
+        "headline": "Kredivo Holding Dapatkan Pendanaan Seri D Senilai US$ 270 Juta yang Dipimpin Mizuho",
+        "desc": "Kredivo Holdings, perusahaan induk dari Kredivo dan Krom Bank Indonesia mengumumkan telah mengumpulkan dana senilai US$ 270 juta dalam putaran pendanaan ekuitas seri D yang oversubscribed.",
+        "author": "Adrianus Octaviano",
+        "date": "2022-06-15",
+        "image": "/kredivo.jpg",
+        "category": "World"
+    },
+    {
+        "id": 48,
+        "headline": "Google Meluncurkan Bard, Siap Jadi Rival ChatGPT Milik Microsoft",
+        "desc": "Google resmi meluncurkan layanan AI chatbot pesaing ChatGPT bernama Bard. Untuk sementara, Bard akan tersedia untuk pengguna di Inggris dan Amerika Serikat.",
+        "author": "Prihastomo Wahyu Widodo",
+        "date": "2022-06-10",
+        "image": "/bard.jpg",
+        "category": "World"
+    },
+    {
+        "id": 49,
+        "headline": "Pertama Kalinya dalam Sejarah, London Penuh dengan Dekorasi Bulan Ramadhan",
+        "desc": "Distrik terkenal di ibu kota Inggris ini telah dihiasi dengan lentera  dan lampu berbentuk bulan sabit dan bintang, dengan kata-kata Happy Ramadan yang didirikan di Coventry Street antara Piccadilly dan Leicester Square, untuk mengantar dimulainya bulan suci Ramadhan",
+        "author": "Nancy Daily",
+        "date": "2022-04-17",
+        "image": "/london.jpg",
+        "category": "World"
+    },
+    {
+        "id": 50,
+        "headline": "Chelsea Bakal Gelar Buka Puasa Bersama di Stamford Bridge",
+        "desc": "Hal ini Jadi yang pertam di Inggris, Bola.net - Klub raksasa Premier League Chelsea akan menggelar acara buka puasa bersama pada hari Minggu (26/03/2023) nanti. Acara buka puasa bersama itu nantinya akan digelar di Stadion Stamford Bridge. ",
+        "author": "Tiffany",
+        "date": "2022-10-11",
+        "image": "/liga.png",
+        "category": "World"
     }
+
 ]
