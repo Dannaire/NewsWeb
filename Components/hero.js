@@ -35,14 +35,14 @@ function hero() {
   };
 
   return (
-    <section className="content mt-8 bg-white dark:bg-gray-900 z-0">
+    <section className="content mt-8 bg-white dark:bg-gray-900 z-0 mt-7">
       <Slider {...setting}>
         {searchResults.map((result) => (
           <div key={result.id}>
               <img
                 src={result.image}
                 alt={result.title}
-                className="object-cover w-full h-[650px] aspect-video"
+                className="object-cover w-full h-[200px] aspect-video md:h-[450px]"
               />
             </div>
         ))}

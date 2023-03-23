@@ -7,7 +7,7 @@ function Bloglink() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://api.jsonbin.io/v3/b/6419d536c0e7653a058beae8"
+          "https://api.jsonbin.io/v3/b/6419b700ebd26539d0929afb"
         );
         const data = await response.json();
         setSearchResults(data.record);
