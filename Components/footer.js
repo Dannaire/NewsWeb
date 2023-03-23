@@ -72,73 +72,74 @@ function footer() {
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 <div>
                   <Link
-                    href="#"
+                    href="https://kelompok5-react.vercel.app/"
                     className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    target="_blank"
                   >
                     Company
                   </Link>
                   <Link
-                    href="#"
+                    href="/contact"
                     className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                   >
-                    community
+                    Advertisement
                   </Link>
                   <Link
                     href="#"
                     className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                   >
-                    Careers
-                  </Link>
-                </div>
-
-                <div>
-                  <Link
-                    href="#"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  >
-                    Tec
-                  </Link>
-                  <Link
-                    href="#"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  >
-                    Music
-                  </Link>
-                  <Link
-                    href="#"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  >
-                    Videos
+                    More Articles
                   </Link>
                 </div>
 
                 <div>
                   <Link
-                    href="#"
+                    href="/"
                     className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                   >
-                    Mega cloud
+                    Home
                   </Link>
                   <Link
-                    href="#"
+                    href="/business"
                     className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                   >
-                    Aperion UI
+                    Business
                   </Link>
                   <Link
-                    href="#"
+                    href="/sport"
                     className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                   >
-                    Meraki UI
+                    Sport
+                  </Link>
+                </div>
+
+                <div>
+                  <Link
+                    href="/health"
+                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                  >
+                    Health
+                  </Link>
+                  <Link
+                    href="/travel"
+                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                  >
+                    Travel
+                  </Link>
+                  <Link
+                    href="/world"
+                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                  >
+                    World
                   </Link>
                 </div>
 
                 <div>
                   <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                    +1 526 654 8965
+                    +1 911 911 9111
                   </span>
                   <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                    example@email.com
+                    dailynews@actual.com
                   </span>
                 </div>
               </div>
