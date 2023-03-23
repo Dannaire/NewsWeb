@@ -26,7 +26,10 @@ function hero() {
   const setting = {
     dots: true,
     infinite: true,
-    speed: 300,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    arrows:true,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
