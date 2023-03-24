@@ -42,7 +42,7 @@ function hero() {
               <img
                 src={result.image}
                 alt={result.title}
-                className="object-cover w-full h-[650px] aspect-video"
+                className="object-cover w-full h-[650px] md:aspect-video"
               />
             </div>
         ))}
