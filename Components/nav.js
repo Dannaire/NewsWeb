@@ -1,7 +1,37 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from 'next/router';
 
 function Nav() {
+  const router = useRouter();
+  const [searchResults, setSearchResults] = useState([]);
+  const [filteredResults, setFilteredResults] = useState([]); // add filteredResults state
+  const url = "/data/data.json";
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+        setSearchResults(data);
+      } catch (error) {
+        console.error(error);
+      }
+    }
+    fetchData();
+  }, []);
+
+  const handleCategoryClick = (category) => {
+    const filteredData = searchResults.filter(
+      (result) => result.category === category
+    );
+    router.push({
+      pathname: `/category/${category}`,
+      query: { filteredData: JSON.stringify(filteredData) },
+    });
+  };
+  
+
   return (
     <div>
       <nav className="bg-navbcg border-gray-200 dark:bg-gray-900 h-20 w-full fixed z-10">
@@ -17,7 +47,7 @@ function Nav() {
             </span>
           </Link>
           <div className="flex items-center">
-            <ul className="flex flex-row my-5 mr-6 space-x-8 text-sm font-medium ">
+            <ul className="flex flex-row my-5 mr-6 space-x-8 text-sm font-medium  ">
               <li>
                 <Link
                   href="/"
@@ -28,53 +58,42 @@ function Nav() {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/business"
-                  className="nav"
-                >
-                  Business
-                </Link>
+              <button
+              className="nav"
+              onClick={() => handleCategoryClick("business")}
+            >Business</button>
               </li>
               <li>
-                <Link
-                  href="/sport"
-                  className="nav"
-                >
-                  Sport
-                </Link>
+                
+              <button
+              className="nav"
+              onClick={() => handleCategoryClick("Sport")}
+            >Sport</button>
               </li>
               <li>
-                <Link
-                  href="/health"
-                  className="nav"
-                >
-                  Health
-                </Link>
+              <button
+              className="nav"
+              onClick={() => handleCategoryClick("health")}
+            >health</button>
               </li>
               <li>
-                <Link
-                  href="/travel"
-                  className="nav"
-                >
-                  Travel
-                </Link>
+              <button
+              className="nav"
+              onClick={() => handleCategoryClick("travel")}
+            >travel</button>
               </li>
               <li>
-                <Link
-                  href="/world"
-                  className="nav"
-                >
-                  World
-                </Link>
+              <button
+              className="nav"
+              onClick={() => handleCategoryClick("World")}
+            >World</button>
               </li> 
             </ul>
           </div>
         </div>
       </nav>
 
-      <main>
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8"></div>
-      </main>
+      /
     </div>
   );
 }
