@@ -40,6 +40,7 @@ function hero() {
         Now Happening
       </div>
       <Slider {...setting}>
+
         {display.map((result) => (
           <div key={result.id} className="relative">
             <img
