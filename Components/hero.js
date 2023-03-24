@@ -28,27 +28,24 @@ function hero() {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 5000,
-    arrows:true,
+    arrows: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
 
   return (
-    <section className="content mt-8 bg-white dark:bg-gray-900 z-0 mt-7">
+    <section className="content mt-16 bg-white dark:bg-gray-900 z-0">
+      <div className="text-white text-3xl font-bold ">Now Happening</div>
       <Slider {...setting}>
         {searchResults.map((result) => (
           <div key={result.id}>
-              <img
-                src={result.image}
-                alt={result.title}
-<<<<<<< HEAD
-                className="object-cover w-full h-[650px] md:aspect-video"
-=======
-                className="object-cover w-full h-[200px] aspect-video md:h-[450px]"
->>>>>>> 2a982a214ed5cbc0c5740704e7ab7793413231c6
-              />
-            </div>
+            <img
+              src={result.image}
+              alt={result.title}
+              className="object-cover w-full h-[500px] aspect-video"
+            />
+          </div>
         ))}
       </Slider>
     </section>
