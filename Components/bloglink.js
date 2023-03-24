@@ -3,20 +3,18 @@ import { useState, useEffect } from "react";
 function Bloglink() {
   const [searchResults, setSearchResults] = useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(
-          "https://api.jsonbin.io/v3/b/6419d536c0e7653a058beae8"
-        );
-        const data = await response.json();
-        setSearchResults(data.record);
-        console.log("API data fetched successfully!");
-      } catch (err) {
-        console.log(err);
-      }
-    };
+  const url = "/data/data.json";
 
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+        setSearchResults(data);
+      } catch (error) {
+        console.error(error);
+      }
+    }
     fetchData();
   }, []);
 
@@ -53,18 +51,19 @@ function Bloglink() {
                     </div>
                   </div>
                 </div>
-                {searchResults.map((result) => (
+                {searchResults.slice(0,6).map((result) => (
                 <div key={result.id} className="flex-shrink max-w-full w-full sm:w-1/3 px-3 pb-3 pt-3 sm:pt-0 border-b-2 sm:border-b-0 border-dotted border-gray-100">
                   <div className="flex flex-row sm:block hover-img">
                     <a href>
                       <img className="object-cover w-full h-48 rounded" src={result.image} alt="alt title" />
                     </a>
                     <div className="py-0 sm:py-3 pl-3 sm:pl-0">
-                      <h3 className="text-lg font-bold leading-tight mb-2">
-                        <a href="#">{result.title}</a>
-                      </h3>
-                      <p className="hidden md:block text-gray-600 leading-tight mb-1">{result.description}</p>
-                      <a className="text-gray-500" href="#"><span className="inline-block h-3 border-l-2 border-red-600 mr-2" />{result.publishedAt}</a>
+                    <h3 className="text-lg font-bold leading-tight mb-2 overflow-hidden overflow-ellipsis"style={{ display: '-webkit-box', WebkitLineClamp: 1, WebkitBoxOrient: 'vertical' }}>
+                          <a href="#">{result.headline}</a>
+                        </h3>
+                      <p className="hidden md:block text-gray-600 leading-tight mb-1 overflow-hidden overflow-ellipsis" style={{ display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical' }}>{result.desc}</p>
+
+                      <a className="text-gray-500" href="#"><span className="inline-block h-3 border-l-2 border-red-600 mr-2" />{result.category}</a>
                     </div>
                   </div>
                 </div>
@@ -82,7 +81,7 @@ function Bloglink() {
                   {searchResults.slice(0, 4).map((result) => (
                   <ul key={result.id } className="post-number">
                     <li className="border-b border-gray-100 hover:bg-gray-50">
-                      <a className="text-lg font-bold px-6 py-3 flex flex-row items-center" href="#">{result.title}</a>
+                      <a className="text-lg font-bold px-6 py-3 flex flex-row items-center" href="#">{result.headline}</a>
                     </li>
                   </ul>
                    ))}

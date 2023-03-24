@@ -35,14 +35,18 @@ function hero() {
   };
 
   return (
-    <section className="content mt-8 bg-white dark:bg-gray-900 z-0">
+    <section className="content mt-8 bg-white dark:bg-gray-900 z-0 mt-7">
       <Slider {...setting}>
         {searchResults.map((result) => (
           <div key={result.id}>
               <img
                 src={result.image}
                 alt={result.title}
+<<<<<<< HEAD
                 className="object-cover w-full h-[650px] md:aspect-video"
+=======
+                className="object-cover w-full h-[200px] aspect-video md:h-[450px]"
+>>>>>>> 2a982a214ed5cbc0c5740704e7ab7793413231c6
               />
             </div>
         ))}
