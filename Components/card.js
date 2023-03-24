@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-import { Transition } from "@headlessui/react";
-import Link from "next/link";
 
 function Card() {
   const [searchResults, setSearchResults] = useState([]);

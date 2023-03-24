@@ -5,7 +5,8 @@
         "author": "Dian Putri",
         "date": "2022-03-21",
         "image": "/img/astra.jpg",
-        "category": "business"
+        "category": "business",
+        "hero": true
     },
     {
         "id": 2,
@@ -14,7 +15,8 @@
         "author": "Aisyah Syakira",
         "date": "2022-03-10",
         "image": "/img/jepang.jpg",
-        "category": "business"
+        "category": "business",
+        "hero": false
     },
     {
         "id": 3,
@@ -23,7 +25,8 @@
         "author": "Dian Putri",
         "date": "2022-02-20",
         "image": "/img/china.jpg",
-        "category": "business"
+        "category": "business",
+        "hero": false
     },
     {
         "id": 4,
@@ -32,7 +35,8 @@
         "author": "Mike Wheeler",
         "date": "2022-01-18",
         "image": "/img/bank.jpg",
-        "category": "business"
+        "category": "business",
+        "hero": false
     },
     {
         "id": 5,
@@ -41,7 +45,8 @@
         "author": "Aisyah Syakira",
         "date": "2022-02-20",
         "image": "/img/semen.jpg",
-        "category": "business"
+        "category": "business",
+        "hero": false
     },
     {
         "id": 6,
@@ -50,7 +55,8 @@
         "author": "Dian Putri",
         "date": "2022-01-17",
         "image": "/img/filip.jpg",
-        "category": "business"
+        "category": "business",
+        "hero": false
     },
     {
         "id": 7,
@@ -59,7 +65,8 @@
         "author": "Jonathan",
         "date": "2022-08-26",
         "image": "/img/traktor.jpg",
-        "category": "business"
+        "category": "business",
+        "hero": false
     },
     {
         "id": 8,
@@ -68,7 +75,8 @@
         "author": "Nancy",
         "date": "2022-03-05",
         "image": "/img/pangan.jpg",
-        "category": "business"
+        "category": "business",
+        "hero": false
     },
     {
         "id": 9,
@@ -77,7 +85,8 @@
         "author": "Tiffany",
         "date": "2022-03-23",
         "image": "/img/depo.jpg",
-        "category": "business"
+        "category": "business",
+        "hero": false
     },
     {
         "id": 10,
@@ -86,7 +95,8 @@
         "author": "Doni Syahputra",
         "date": "2022-01-17",
         "image": "/img/nikel.jpg",
-        "category": "business"
+        "category": "business",
+        "hero": false
     },
     {
         "id": 11,
@@ -95,7 +105,8 @@
         "author": "Nancy Daily",
         "date": "2023-03-12",
         "image": "/img/chico.jpeg",
-        "category": "Sport"
+        "category": "Sport",
+        "hero": true
     },
     {
         "id": 12,
@@ -104,7 +115,8 @@
         "author": "Tiffany",
         "date": "2023-03-10",
         "image": "/img/erick.jpg",
-        "category": "Sport"
+        "category": "Sport",
+        "hero": false
     },
     {
         "id": 13,
@@ -113,7 +125,8 @@
         "author": "Jonathan",
         "date": "2023-03-12",
         "image": "/img/league.jpg",
-        "category": "Sport"
+        "category": "Sport",
+        "hero": false
     },
     {
         "id": 14,
@@ -122,7 +135,8 @@
         "author": "Aisyah Syakira",
         "date": "2023-03-10",
         "image": "/img/inggris.jpeg",
-        "category": "Sport"
+        "category": "Sport",
+        "hero": false
     },
     {
         "id": 15,
@@ -131,7 +145,8 @@
         "author": "Doni Syahputra",
         "date": "2023-03-20",
         "image": "/img/timnas.jpeg",
-        "category": "Sport"
+        "category": "Sport",
+        "hero": false
     },
     {
         "id": 16,
@@ -140,7 +155,8 @@
         "author": "Tiffany",
         "date": "2023-03-21",
         "image": "/img/justin.jpeg",
-        "category": "Sport"
+        "category": "Sport",
+        "hero": false
     },
     {
         "id": 17,
@@ -149,7 +165,8 @@
         "author": "Dian Putri",
         "date": "2023-03-18",
         "image": "/img/pitha.jpeg",
-        "category": "Sport"
+        "category": "Sport",
+        "hero": false
     },
     {
         "id": 18,
@@ -158,7 +175,8 @@
         "author": "Mike Wheeler",
         "date": "2023-03-20",
         "image": "/img/wakil.jpg",
-        "category": "Sport"
+        "category": "Sport",
+        "hero": false
     },
     {
         "id": 19,
@@ -167,7 +185,8 @@
         "author": "Doni Syahputra",
         "date": "2023-03-18",
         "image": "/img/lolos.jpeg",
-        "category": "Sport"
+        "category": "Sport",
+        "hero": false
     },
     {
         "id": 20,
@@ -176,7 +195,8 @@
         "author": "Tiffany",
         "date": "2023-03-20",
         "image": "/img/swiss.jpeg",
-        "category": "Sport"
+        "category": "Sport",
+        "hero": false
     },
     {
         "id": 21,
@@ -185,7 +205,8 @@
         "author": "Dian Putri",
         "date": "2023-01-28",
         "image": "/img/meat.jpg",
-        "category": "health"
+        "category": "health",
+        "hero": true
     },
     {
         "id": 22,
@@ -194,7 +215,8 @@
         "author": "Tiffany",
         "date": "2022-03-04",
         "image": "/img/diabetes.jpg",
-        "category": "health"
+        "category": "health",
+        "hero": false
     },
     {
         "id": 23,
@@ -203,7 +225,8 @@
         "author": "Jonathan",
         "date": "2022-05-17",
         "image": "/img/skincare.jpg",
-        "category": "health"
+        "category": "health",
+        "hero": false
     },
     {
         "id": 24,
@@ -212,7 +235,8 @@
         "author": "Shintaloka Pradita Sicca",
         "date": "2022-05-17",
         "image": "/img/teh.jpg",
-        "category": "health"
+        "category": "health",
+        "hero": false
     },
     {
         "id": 25,
@@ -221,7 +245,8 @@
         "author": "Aisyah Syakira",
         "date": "2022-05-17",
         "image": "/img/mental.jpg",
-        "category": "health"
+        "category": "health",
+        "hero": false
     },
     {
         "id": 26,
@@ -230,7 +255,8 @@
         "author": "Dian Putri",
         "date": "2022-05-17",
         "image": "/img/burnout.jpeg",
-        "category": "health"
+        "category": "health",
+        "hero": false
     },
     {
         "id": 27,
@@ -239,7 +265,8 @@
         "author": "Doni Syahputra",
         "date": "2022-05-17",
         "image": "/img/gula.jpg",
-        "category": "health"
+        "category": "health",
+        "hero": false
     },
     {
         "id": 28,
@@ -248,7 +275,8 @@
         "author": "Mike Wheeler",
         "date": "2022-05-17",
         "image": "/img/musik.jpg",
-        "category": "health"
+        "category": "health",
+        "hero": false
     },
     {
         "id": 29,
@@ -257,15 +285,17 @@
         "author": "Mike Wheeler",
         "date": "2022-05-17",
         "image": "/img/gulaDarah.jpg",
-        "category": "health"
-    },{
+        "category": "health",
+        "hero": false
+    }, {
         "id": 30,
         "headline": "Bye-Bye Bau Mulut Selama Ramadhan",
         "desc": "Selama Ramadan, umat muslim berpuasa sebulan penuh. Sepanjang hari, mereka tidak makan dan minum sehingga menyebabkan mulut kering dan kerap memicu bau tidak sedap. Kondisi ini memicu rasa tidak nyaman",
         "author": "Jonathan",
         "date": "2022-05-17",
         "image": "/img/mulut.jpg",
-        "category": "health"
+        "category": "health",
+        "hero": false
     },
     {
         "id": 31,
@@ -274,7 +304,8 @@
         "author": "Jonathan",
         "date": "2022-05-17",
         "image": "/img/mudik.jpg",
-        "category": "travel"
+        "category": "travel",
+        "hero": true
     },
     {
         "id": 32,
@@ -283,7 +314,8 @@
         "author": "Dian Putri",
         "date": "2022-05-17",
         "image": "/img/mudik.jpg",
-        "category": "travel"
+        "category": "travel",
+        "hero": false
     },
     {
         "id": 33,
@@ -292,7 +324,8 @@
         "author": "Nancy",
         "date": "2022-05-17",
         "image": "/img/pemkot.jpeg",
-        "category": "travel"
+        "category": "travel",
+        "hero": false
     },
     {
         "id": 34,
@@ -301,7 +334,8 @@
         "author": "Tiara Dina",
         "date": "2022-05-17",
         "image": "/img/taiwan.jpeg",
-        "category": "travel"
+        "category": "travel",
+        "hero": false
     },
     {
         "id": 35,
@@ -310,7 +344,8 @@
         "author": "Tiara Dina",
         "date": "2022-05-17",
         "image": "/img/pariwisata.jpg",
-        "category": "travel"
+        "category": "travel",
+        "hero": false
     },
     {
         "id": 36,
@@ -319,7 +354,8 @@
         "author": "Tiffany",
         "date": "2022-05-17",
         "image": "/img/bali.jpeg",
-        "category": "travel"
+        "category": "travel",
+        "hero": false
     },
     {
         "id": 37,
@@ -328,7 +364,8 @@
         "author": "Aisyah Syakira",
         "date": "2022-05-17",
         "image": "/img/garut.jpeg",
-        "category": "travel"
+        "category": "travel",
+        "hero": false
     },
     {
         "id": 38,
@@ -337,7 +374,8 @@
         "author": "Mike Wheeler",
         "date": "2022-05-17",
         "image": "/img/hiu.jpg",
-        "category": "travel"
+        "category": "travel",
+        "hero": false
     },
     {
         "id": 39,
@@ -346,7 +384,8 @@
         "author": "Jonathan",
         "date": "2022-05-17",
         "image": "/img/motor.jpg",
-        "category": "travel"
+        "category": "travel",
+        "hero": false
     },
     {
         "id": 40,
@@ -355,7 +394,8 @@
         "author": "Dian Putri",
         "date": "2022-05-17",
         "image": "/img/kapal.jpg",
-        "category": "travel"
+        "category": "travel",
+        "hero": false
     },
     {
         "id": 41,
@@ -364,7 +404,8 @@
         "author": "Aisyah Syakira",
         "date": "2022-05-18",
         "image": "/img/aqsa.jpeg",
-        "category": "World"
+        "category": "World",
+        "hero": true
     },
     {
         "id": 42,
@@ -373,7 +414,8 @@
         "author": "Tia Kiana",
         "date": "2022-06-17",
         "image": "/img/palestina.jpeg",
-        "category": "World"
+        "category": "World",
+        "hero": false
     },
     {
         "id": 43,
@@ -382,7 +424,8 @@
         "author": "Dian Hana",
         "date": "2022-09-01",
         "image": "/img/badai.jpeg",
-        "category": "World"
+        "category": "World",
+        "hero": false
     },
     {
         "id": 44,
@@ -391,7 +434,8 @@
         "author": "Nafa Putri",
         "date": "2022-09-01",
         "image": "/img/beijing.jpg",
-        "category": "World"
+        "category": "World",
+        "hero": false
     },
     {
         "id": 45,
@@ -400,7 +444,8 @@
         "author": "Tendi Mahadi",
         "date": "2022-06-17",
         "image": "/img/kerja.jpg",
-        "category": "World"
+        "category": "World",
+        "hero": false
     },
     {
         "id": 46,
@@ -409,7 +454,8 @@
         "author": "Prihastomo Wahyu Widodo",
         "date": "2022-06-17",
         "image": "/img/ukraina.jpeg",
-        "category": "World"
+        "category": "World",
+        "hero": false
     },
     {
         "id": 47,
@@ -418,7 +464,8 @@
         "author": "Adrianus Octaviano",
         "date": "2022-06-15",
         "image": "/img/kredivo.jpg",
-        "category": "World"
+        "category": "World",
+        "hero": false
     },
     {
         "id": 48,
@@ -427,7 +474,8 @@
         "author": "Prihastomo Wahyu Widodo",
         "date": "2022-06-10",
         "image": "/img/bard.jpg",
-        "category": "World"
+        "category": "World",
+        "hero": false
     },
     {
         "id": 49,
@@ -436,7 +484,8 @@
         "author": "Nancy Daily",
         "date": "2022-04-17",
         "image": "/img/landon.jpg",
-        "category": "World"
+        "category": "World",
+        "hero": false
     },
     {
         "id": 50,
