@@ -1,6 +1,7 @@
 [{
         "id": 1,
         "headline": "Skala Bisnis Astra Financial",
+        "subheading": "Astra Financial Targetkan Pertumbuhan Laba Bersih 10-15 Persen pada 2023",
         "desc": "Anak usaha PT Astra International Tbk (ASII), PT Sedaya Multi Investama (Astra Financial) melihat tren positif pembiayaan otomotif pada 2023. Direktur Astra Financial Handoko Liem mengat",
         "conten": [
             "Astra Finansial merupakan satu dari tujuh divisi bisnis Astra, disamping Otomotif, Alat Berat, Pertambangan, Konstruksi dan Energi, Agribisnis, Infrastruktur dan Logistik, Teknologi Informasi, dan Properti.",
@@ -17,6 +18,7 @@
     {
         "id": 2,
         "headline": "Dominasi Mobil Jepang Terancam Oleh China",
+        "subheading": "Ancaman Agresivitas Perusahaan China terhadap Pabrikan Mobil Jepang",
         "desc": "Lambatnya pabrikan Jepang dalam mengadopsi mobil listrik, membuat mereka kian terancam oleh agresivitas perusahaan asal China. Seperti diketahui, pasar otomotif dunia selama ini masih didominasi oleh Jepang.",
         "conten": [
             "Lima tahun sudah merek mobil China mengibarkan bendera perang terhadap raksasa otomotif Jepang di Tanah Air. Sedikit demi sedikit persaingan mulai terasa keras sebab determinasi terus menusuk ke zona nyaman para senior. Merek mobil China sebenarnya sudah ada di Indonesia sejak lama, namun gebrakan yang pakai modal serius ditunjukkan SGMW Motor Indonesia pada 2017. Perusahaan itu membawa merek Wuling ke Indonesia dan menyatakan komitmennya bukan cuma jualan mobil tetapi juga mendirikan dapur produksi di dalam negeri. Sikap ingin berumur panjang ini menjawab banyak pertanyaan pesimistis apakah merek China datang lagi cuma mau mampir lalu mangkir kemudian.",
@@ -33,6 +35,7 @@
     {
         "id": 3,
         "headline": "China & Rusia Makin Rapat di Sektor Energi, Ancam Batu Bara Indonesia?",
+        "subheading": "Dampak Perang Rusia-Ukraina Terhadap Harga Batu Bara dan DMO di Indonesia",
         "desc": "Hingga saat ini, Amerika Serikat dan China masih menduduki peringkat teratas negara penyumbang emisi dunia. Tingginya tingkat emisi kedua negara tersebut salah satunya diakibatkan tingginya penggunaan batubara sebagai sumber energi bagi pembangkit listrik di AS maupun China.",
         "conten": [
             "Salah satu dampak perang Rusia-Ukraina adalah mulai melemahnya harga batu bara seiring beberapa negara produsen, utamanya China dan India meningkatkan produksinya yang menjadikan harga batu bara diperkirakan mengalami koreksi di tahun 2023. Di tengah penurunan harga batu bara dunia tersebut, Kementerian Energi dan Sumberdaya Mineral (ESDM) menetapkan Harga Batubara Acuan (HBA) pada Januari 2023 turun menjadi US$ 305,21 per ton dan pada Februari 2023 HBA kembali diturunkan menjadi US$ 277,05 per ton.",
@@ -49,6 +52,7 @@
     {
         "id": 4,
         "headline": "Bisnis Kartu Kredit: Adu Strategi BRI, Mega, CIMB, Hingga Bank Mandiri (BMRI)",
+        "subheading": "PT Bank Mandiri Tbk (BMRI) Menargetkan Pertumbuhan yang Agresif di Tahun 2023 dengan Fokus pada Digitalisasi.",
         "desc": "PT Bank Mandiri (Persero) Tbk (BMRI) membukukan pertumbuhan positif kinerja transaksi kartu kredit sepanjang tahun 2022. Untuk menjaga kinerja tersebut perseroan juga telah mengusung strategi di tahun 2023 ini.",
         "conten": [
             "PT Bank Mandiri (Persero) Tbk (BMRI) membukukan pertumbuhan positif kinerja transaksi kartu kredit sepanjang tahun 2022. Untuk menjaga kinerja tersebut perseroan juga telah mengusung strategi di tahun 2023 ini. SVP Credit Cards Group Bank Mandiri, Erin Young mengatakan pertumbuhan volume transaksi Mandiri kartu kredit mencapai 32% year on year (YoY). Nilai ini tumbuh signifikan dibandingkan tahun sebelumnya bahkan melebih angka sales volume sebelum pandemi.",
@@ -65,6 +69,7 @@
     {
         "id": 5,
         "headline": "Kode Keras JP Morgan di Saham Semen Indonesia SMGR",
+        "subheading": "Solid Performance of SMGR Maintained through Price Increase and Volume Growth",
         "desc": "JP Morgan menebalkan rating overweight saham PT Semen Indonesia (Persero) Tbk. (SMGR) seiring akumulasi oleh firma investasi dan layanan keuangan itu dalam enam bulan terakhir",
         "conten": [
             "Kinerja PT Semen Indonesia Tbk (SMGR) masih cukup solid. Kenaikan harga jual menjaga kinerja SMGR dalam tren positif. Pendapatan SMGR memang terpantau turun tipis 0,19% menjadi Rp 25,28 triliun per kuartal ketiga 2022. Namun, SMGR berhasil mencetak laba bersih senilai Rp 1,65 triliun atau naik 18,9% dari periode yang sama tahun lalu sebesar Rp 1,38 triliun.",
@@ -81,6 +86,7 @@
     {
         "id": 6,
         "headline": "Kiprah Bank Digital Afiliasi Anthoni Salim di Filipina",
+        "subheading": "",
         "desc": "Angan midas Anthoni Salim boleh jadi tak begitu kelihatan dalam bisnis bank digital di Indonesia. Sepak terjang PT Allo Bank Indonesia Tbk (BBHI), bank digital yang disuntik sang konglomerat pada awal 2022, relatif kalah berkilau dari agresivitas Seabank, Bank Jago, hingga Bank Neo",
         "conten": [
             " Grup Salim, salah satu konglomerasi terkaya dan tertua di Indonesia yang didirikan oleh mendiang Sudono Salim, terus mengembangkan gurita bisnisnya di Tanah Air. Terbaru, konglomerasi yang menguasai Grup Indofood ini mencoba menunggangi gelombang tech boom dengan memasuk ekosistem teknologi digital.",
@@ -97,6 +103,7 @@
     {
         "id": 7,
         "headline": "Daya Pikat Dividen Gemuk United Tractors (UNTR)",
+        "subheading": "Grup Salim Terus Ekspansi Usaha dengan Memasuki Ekosistem Teknologi Digital dan Bisnis Telekomunikasi.",
         "desc": "Emiten alat berat Astra, PT United Tractors Tbk. (UNTR) menjanjikan dividen tahun buku 2022 hingga Rp26 triliun, melampaui total laba bersih tahun lalu yang sebesar Rp21 triliun",
         "conten": [
             "PT United Tractors Tbk (UNTR) terus memacu lini bisnisnya. United Tractors pun menaikkan target penjualan alat berat menjadi 5.500 unit pada 2022. Target ini lebih tinggi dari target sebelumnya yang sebesar 4.800 unit. Dan bila dibandingkan penjualan tahun 2021 yang realisasi penjualan alat berat sebesar 3.000 unit, target tahun ini meningkat signifikan.",
@@ -113,6 +120,7 @@
     {
         "id": 8,
         "headline": "Atur Siasat Redam Gejolak Harga Pangan Jelang Ramadan",
+        "subheading": "Kenaikan Harga Pangan di Awal Puasa.",
         "desc": "Mayoritas harga pangan terus mengalami lonjakan terutama menjelang bulan Ramadan. Pemerintah pun diminta agar mengendalikan harga pangan",
         "conten": [
             "Harga pangan di awal puasa terus mengalami kenaikan. Pedagang mengungkap bahwa saat ini merupakan fase awal harga bahan pokok selama ramadan mengalami kenaikan. Kenaikan harga pangan hari ini itu merupakan fase pertama yang sedang terjadi, jadi 3 hari menjelang ramadan dan berlaku juga satu minggu (awal ramadan). Di awal fase ini memang sudah tidak bisa mengandalkan pemerintah karena harga komoditas sudah naik, jelas Ketua Umum Ikatan Pedagang Pasar Indonesia (Ikappi), Abdullah Mansuri, kepada detikcom, Jumat (24/3/2023).",
@@ -129,6 +137,7 @@
     {
         "id": 9,
         "headline": "Tragedi Depo Plumpang dan PR Besar Pertamina",
+        "subheading": "Kebakaran di Depo BBM Pertamina Plumpang, Jakarta dan Jumlah Korban Tewas dan Luka-Luka.",
         "desc": "Insiden kebakaran Terminal Bahan Bakar Minyak (TBBM) Plumpang atau Depo Plumpang di Jakarta Utara milik PT Pertamina (Persero), mengingatkan kembali betapa mendesaknya pembangunan buffer zone",
         "conten": [
             "Kebakaran hebat terjadi di Depo BBM Pertamina Plumpang, Jakarta pada Jumat (3/3/2023) malam. Kebakaran tersebut tidak hanya terjadi di dalam depo, tetapi juga merembet ke permukiman warga di sekitar depo. Kepala Staf Angkatan Darat (KSAD), Jenderal Dudung Abdurachman meninjau langsung proses penanganan dan evakuasi para korban di lokasi. Dudung mengatakan, jumlah korban tewas dalam kejadian tersebut berjumlah 14 orang.",
@@ -145,6 +154,7 @@
     {
         "id": 10,
         "headline": "Ketika Ambisi Kartel Nikel Indonesia Ditolak Berbagai Sisi",
+        "subheading": "Uni Eropa menggugat Indonesia ke WTO terkait larangan ekspor bijih nikel.",
         "desc": "Ambisi untuk membentuk kartel negara-negara produsen nikel, pernah diapungkan oleh Indonesia pada tahun lalu. Namun demikian, keinginan Indonesia tersebut tampak tak mendapatkan respons yang sesuai harapan dari negara-negara mitra",
         "conten": [
             "UNI Eropa menggugat Indonesia ke WTO terkait larangan ekspor bijih nikel yang mulai berlaku 1 Januari 2020. Permintaan konsultasi delegasi Uni Eropa kepada delegasi Indonesia, disampaikan kepada Dispute Settlement Body (DSU) sesuai dengan Pasal 4.4 DSU. Uni Eropa mengklaim bahwa larangan ekspor Indonesia, persyaratan pemrosesan dan pemasaran dalam negeri, serta persyaratan perizinan ekspor yang berlaku untuk bahan mentah, termasuk nikel, bijih besi, kromium, batu bara, limbah logam, skrap, kokas, tidak sesuai dengan Pasal XI:1 General Agreement on Tariffs and Trade (GATT) 1994. Uni Eropa juga mengklaim skema pembebasan bea masuk merupakan subsidi yang bergantung pada penggunaan barang-barang domestik atas impor yang dilarang berdasarkan Pasal 3.1 b) Perjanjian tentang Subsidi dan Tindakan Penyeimbang/Agreement on Subsidies and Countervailing Measures (ASCM).",
@@ -161,6 +171,7 @@
     {
         "id": 11,
         "headline": "Chico Cedera Engkel Lawan Axelsen, Langsung kembali ke Jakarta",
+        "subheading": "",
         "desc": "Chico mengalami cedera saat melakoni babak pertama Swiss Open 2023 melawan tunggal putra ranking satu dunia asal Denmark, Viktor Axelsen, pada Rab, 22 Maret 2023. Mentas di St. Jakobshalle, Basel, Swiss, Chico mundur dari pertandingan setelah berlaga selama lima menit",
         "conten": [
             "Chico Aura Dwi Wardoyo dipastikan mengalami cedera engkel kiri saat dikalahkan Viktor Axelsen pada babak pertama Swiss Open 2023 di Basel, Rabu (22/3). Dokter PBSI, dr. Grace Joselini Corlesa, menyatakan Chico harus kembali ke Jakarta setelah mengalami cedera engkel kiri. Kemarin saya sudah mendapat laporan dari Swiss mengenai cedera Chico. Dia ada cedera pada engkel kaki kiri. Rencana Chico akan pulang langsung ke Jakarta untuk menjalani MRI dan penanganan lebih lanjut, kata Grace dalam keterangan resmi PBSI.",
@@ -177,6 +188,7 @@
     {
         "id": 12,
         "headline": "Erick Tohir:PSSI All Stars vs Joenbuk Digelar 15 Juni",
+        "subheading": "Chico Aura Dwi Wardoyo mengalami cedera engkel kiri dan harus kembali ke Jakarta",
         "desc": "Ketua Umum PSSI Erick Thohir mengatakan pertandingan PSSI All Stars vs Jeonbuk Hyundai Motors bakal digelar 15 Juni 2023 di Indonesia. Hal tersebut diungkapkan Erick usai bertemu bos Hyundari Motors, Chung Eui Son di Korea Selatan.",
         "conten": [
             "Ketua Umum PSSI Erick Thohir mengatakan pertandingan PSSI All Stars vs Jeonbuk Hyundai Motors bakal digelar 15 Juni 2023 di Indonesia. Hal tersebut diungkapkan Erick usai bertemu bos Hyundari Motors, Chung Eui Son di Korea Selatan.",
@@ -193,6 +205,7 @@
     {
         "id": 13,
         "headline": "Premiere League Disebut Lige Terbaik untuk Muslim",
+        "subheading": "Abdoulaye Doucoure menyebut Premier League sebagai liga top Eropa terbaik untuk pemain muslim.",
         "desc": "Doucoure kemudian membandingkan kehidupan pesepakbola muslim di Inggris dan Prancis. Pemain yang pernah memperkuat timnas Prancis di level usia mengatakan Inggris jauh lebih nyaman bagi pemain muslim",
         "conten": [
             "Gelandang Everton Abdoulaye Doucoure menyebut Premier League sebagai liga top Eropa terbaik untuk pemain muslim.Doucoure sudah bermain di Inggris sejak direkrut Watford dari Rennes pada 2016. Sempat dipinjamkan ke Spanyol bersama Granada, pemain timnas Mali itu kemudian pindah ke Everton pada 2020.Dikutip dari situs resmi Premier League, Doucoure mengaku betah bermain di Inggris karena liga termahal di dunia ini sangat menerima pemain muslim.",
@@ -209,6 +222,7 @@
     {
         "id": 14,
         "headline": "Prediksi Italia vs Inggris di Kualifikasi Euro 2024",
+        "subheading": "Prediksi Italia vs Inggris di Kualifikasi Euro 2024.",
         "desc": "Italia tidak terkalahkan melawan Inggris sejak menang di Euro 2020, meraih satu hasil imbang dan satu kali menang. Jika ditarik lebih jauh lagi, Italia tidak pernah kalah dari The Three Lions sejak laga persahabatan 15 Agustus 2012",
         "conten": [
             "Italia vs Inggris akan kembali terjadi di Kualifikasi Euro 2024. Berikut prediksi hasil laga Italia vs Inggris di Kualifikasi Piala Eropa 2024. Ini adalah kali ketiga Italia vs Inggris terjadi sejak tim Azzurri mengalahkan Inggris pada final Euro 2020. Sebelumnya kedua tim bertemu di UEFA Nations League usai Euro 2020. Italia tidak terkalahkan melawan Inggris sejak menang di Euro 2020, meraih satu hasil imbang dan satu kali menang. Jika ditarik lebih jauh lagi, Italia tidak pernah kalah dari The Three Lions sejak laga persahabatan 15 Agustus 2012.",
@@ -225,6 +239,7 @@
     {
         "id": 15,
         "headline": "Latihan Perdana Timnas Burundi di JIS",
+        "subheading": "Pelatih Burundi memberikan porsi latihan ringan pada sesi latihan para pemainnya yang baru tiba di Indonesia.",
         "desc": "Timnas Burundi melakoni latihan perdana di lapangan latihan Jakarta International Stadium (JIS), Rabu (22/img/3), jelang melawan Indonesia di FIFA Matchday",
         "conten": [
             "Dalam sesi latihan itu, tidak semua diikuti oleh para pemain Burundi. Pelatih Burundi, Etienne Ndayiragije, mengaku senang sesi latihan yang digelar pukul 19.00 WIB berjalan dengan lancar. Juru taktik berusia 44 tahun itu hanya memberikan porsi latihan pemanasan untuk sekedar menjaga kondisi para pemainnya. Etienne Ndayiragije mengatakan bahwa ia harus melihat kondisi para pemainnya yang menempuh perjalanan 16 jam dari Burundi ke Indonesia. Untuk itu, ia tidak memberikan porsi latihan yang berat pada malam ini.",
@@ -240,6 +255,7 @@
     {
         "id": 16,
         "headline": "Justin Hubner Gabung Timnas Belanda U-20",
+        "subheading": "",
         "desc": "Kepastian itu terlihat dari postingan stories akun Instagram milik Hubner. Dalam unggahan itu Hubner memperlihatkan lapangan Marbella Football Center yang akan menjadi lokasi pertandingan timnas Belanda U-20.",
         "conten": [
             "Justin Hubner akan membela Timnas Belanda U-20 dalam turnamen yang bertajuk Young Stars Week National Teams. Timnas Belanda U-20 akan menghadapi Prancis pada laga yang digelar di Banus Football Center 1, Sabtu (25/3/2023). Keputusan tetap menerima panggilan Timnas Belanda U-20 tentu mengejutkan",
@@ -256,6 +272,7 @@
     {
         "id": 17,
         "headline": "Kronologi Pitha Mentari Emosional di Swiss Open",
+        "subheading": "Justin Hubner Gabung Timnas Belanda U-20 untuk Young Stars Week National Teams.",
         "desc": "Ini adalah pertandingan pertama Pitha sejak Syabda Belawa meninggal dunia dalam kecelakaan di Tol Pemalang, Jawa Tengah, Senin (20/img/3) dini hari WIB",
         "conten": [
             "Kekasih Syabda Perkasa Belawa, Pitha Haningtyas Mentari, meraih kemenangan lewat proses emosional bersama Rinov Rivaldy pada laga babak pertama Swiss Open 2023 di St. Jakobshalle, Basel, Rabu (22/3) malam waktu setempat. Rinov/Pitha menghadapi ganda campuran Indonesia lainnya, Dejan Ferdinansyah/Gloria Emanuelle Widjaja, pada babak pertama Swiss Open 2023. Ini adalah pertandingan pertama Pitha sejak Syabda Belawa meninggal dunia dalam kecelakaan di Tol Pemalang, Jawa Tengah, Senin (20/3) dini hari WIB",
@@ -272,6 +289,7 @@
     {
         "id": 18,
         "headline": "Wakil Indonesia Bertumbangan di Swiss Open 2023",
+        "subheading": "Indonesia Gagal di Swiss Open 2023, Banyak Wakil Terhenti di Babak Pertama dan 32 Besar",
         "desc": "Ganda putra Leo Rolly Carnando/img/Daniel Marthin jadi wakil Indonesia pertama yang tumbang di babak pertama. The Babies di luar dugaan takluk dari pasangan non unggulan asal Denmark, Jeppe Bay/img/Lasse Molhede pada hari pertama babak 32 besar Swiss Open",
         "conten":[
             "Torehan yang tak impresif diukir Indonesia karena banyak wakil berguguran pada babak pertama Swiss Open 2023. PBSI mengirimkan 16 wakil yang langsung tampil di babak pertama. Sedangkan satu wakil lainnya yakni Meilysa Trias Puspita Sari/Rachel Allessya Rose harus berjuang di babak kualifikasi.Langkah Meilysa/Rachel terhenti di babak kualifikasi. Ironisnya hasil negatif juga didapat mayoritas wakil Indonesia di babak 32 besar.",
@@ -288,6 +306,7 @@
     {
         "id": 19,
         "headline": "Netizen Terharu Lihat Perjuangan Pitha di Swiss Open",
+        "subheading": "Pitha Haningtyas Mentari Menang di Swiss Open Meski dalam Duka",
         "desc": "Pitha bertanding di babak pertama Swiss Ope 2023 dalam kondisi tengah berduka. Ia baru saja kehilangan sang kekasih, Syabda Perkasa Belawa yang meninggal karena mengalami kecelakaan di tol Pemalang, Jawa Tengah, 20 Maret lalu",
         "conten": [
             "Netizen ikut merasakan haru melihat perjuangan kekasih Syabda Perkasa Belawa, Pitha Haningtyas Mentari, bersama pasangannya di ganda campuran, Rinov Rivaldy pada babak pertama Swiss Open 2023. Pitha bertanding di babak pertama Swiss Ope 2023 dalam kondisi tengah berduka. Ia baru saja kehilangan sang kekasih, Syabda Perkasa Belawa yang meninggal karena mengalami kecelakaan di tol Pemalang, Jawa Tengah, 20 Maret lalu. Luar biasanya perasaan sedih itu mampu diredam Pitha untuk fokus ke pertandingan. Bersama pasangannya Rinov Rivaldy, Pitha berjuang dan akhirnya bisa memenangi pertandingan.",
@@ -304,6 +323,7 @@
     {
         "id": 20,
         "headline": "Daftar 7 Wakil Indonesia Lolos ke 16 Besar Swiss Open 2023",
+        "subheading": "Daftar wakil Indonesia yang lolos ke babak 16 besar Swiss Open 2023.",
         "desc": "Sederet wakil Indonesia bertumbangan di hari kedua babak 32 besar Swiss Open 2023. Dari 11 wakil yang bertanding hanya empat yang bisa lolos ke babak 16 besar",
         "conten": [
             "Swiss Open 2023 telah selesai menggelar pertandingan wakil-wakil Indonesia di babak pertama atau 32 besar. Berikut daftar tujuh wakil Indonesia lolos ke babak 16 besar Swiss Open. Sederet wakil Indonesia bertumbangan di hari kedua babak 32 besar Swiss Open 2023. Dari 11 wakil yang bertanding hanya empat yang bisa lolos ke babak 16 besar. Dua wakil tunggal putri Indonesia yakni Putri Kusuma Wardani dan Gregoria Mariska Tunjung berhasil mengalahkan lawan masing-masing di babak pertama. Putri menyingkirkan wakil Thailand, Lalinrat Chaiwan dan Gregoria menang mudah atas Clara Azurmendi (Spanyol).",
@@ -320,6 +340,7 @@
     {
         "id": 21,
         "headline": "Menu Daging dan Diolah dengan Minyak Masih Jadi Favorit Selama Puasa",
+        "subheading": "Polakan Berkelanjutan Masih Rendah di Indonesia, Warga Lebih Memilih Konsumsi Lauk Daging dan Minyak.",
         "desc": "Konsumsi makanan dengan lauk daging dan juga diolah dengan minyak masih menjadi pilihan banyak masyarakat selama berpuasa. Hal itu terungkap dalam survei yang dilakukan oleh Health Collaborative Center (HCC)",
         "conten": [
             "Konsumsi makanan dengan lauk daging dan juga diolah dengan minyak masih menjadi pilihan banyak masyarakat selama berpuasa. Hal itu terungkap dalam survei yang dilakukan oleh Health Collaborative Center (HCC) terhadap 2.531 responden di Indonesia dalam studi Sustainable Eating Intention Index, di mana 68 persen responden menjawab tidak berniat mengurangi makanan mengandung minyak atau sumber yang mengandung lemak. Peneliti utama dari HCC, Dr.Ray Wagiu Basrowi mengatakan, pola makan tinggi protein hewani dan juga penggunaan minyak bisa dikategorikan tidak berkelanjutan (sustainable).",
@@ -336,6 +357,7 @@
     {
         "id": 22,
         "headline": "Ketahui Manfaat Ibadah Puasa untuk Penderita Diabetes menurut Ahli",
+        "subheading": "Puasa Ramadhan Bermanfaat Bagi Penderita Diabetes",
         "desc": "Ketahui Manfaat Ibadah Puasa untuk Penderita Diabetes menurut Ahli",
         "conten": [
             "Spesialis penyakit dalam dr. Ardy Wildan Sp.PD menjelaskan bahwa puasa memiliki banyak manfaat tuntuk penderita diabetes. Manfaat pertama dari puasa yaitu menjaga berat badan diabetesi. Kemudian, manfaat puasa kedua bagi pasien diabetes yaitu mengontrol kadar gula darah. Memang untuk pasien-pasien diabetes yang benar-benar berlebih itu dia (puasa) ada manfaat untuk mengulur berat badannya karena makannya tidak sebanyak selain bulan Ramadhan, kata dokter Ardy, seperti dikutip dari Antara, Selasa (21/3/2023).Kemudian, penelitian menunjukkan bahwa selama puasa itu (kadar) gulanya lebih stabil dibandingkan pada waktu tidak puasa, imbuhnya.",
@@ -352,6 +374,7 @@
     {
         "id": 23,
         "headline": "Bahan Aktif Terbaru dalam Skincare yang Bakal Tren",
+        "subheading": "Bahan aktif Skincare yang diprediksi bakal menjadi tren dan digunakan secara luas",
         "desc": "Penelitian-penelitian seputar kesehatan kulit dan kecantikan terus berkembang untuk menciptakan produk yang bisa menjawab kebutuhan konsumen. Dalam penelitian terbaru terdapat beberapa bahan aktif yang diprediksi bakal menjadi tren dan digunakan secara luas",
         "conten": [
             "Penelitian-penelitian seputar kesehatan kulit dan kecantikan terus berkembang untuk menciptakan produk yang bisa menjawab kebutuhan konsumen. Dalam penelitian terbaru terdapat beberapa bahan aktif yang diprediksi bakal menjadi tren dan digunakan secara luas dalam produk perawatan kulit (skincare). “Jika sebelumnya kita sudah hapal dengan nama-nama seperti hyaluronic acid, niacinamide, atau retinol, ada beberapa kandungan aktif baru yang akan berkembang,” kata peneliti bidang kosmetik dari Skinproof, Ike Indrawati S.Farm dalam temu media di Jakarta (16/3). Bahan aktif terbaru ini diekstrak dari tanaman atau pun bunga dan telah diuji klinis untuk mengetahui khasiatnya bagi kulit. Ada pun zat aktif terbaru yang diprediksi akan tren antara lain:",
@@ -368,6 +391,7 @@
     {
         "id": 24,
         "headline": "10 Obat Alami untuk Sariawan, Madu hingga Teh Kamomil",
+        "subheading": "Beberapa bahan makanan dan masakan yang bisa mengobati sariawan",
         "desc": "Memiliki sariawan bisa sangat tidak nyaman dan mengganggu. Hal itu karena sariawan sering kali merusak napsu makan, makan makanan pedas, asin, atau asam bisa membuat nyeri semakin buruk.",
         "conten": [
             "Memiliki sariawan bisa sangat tidak nyaman dan mengganggu. Hal itu karena sariawan sering kali merusak napsu makan, makan makanan pedas, asin, atau asam bisa membuat nyeri semakin buruk. Tak jarang juga membuat kita malas sikat gigi karena sariwan bisa semakin sakit saat tersenggol. Sehingga, sariawan sangat penting untuk segera bisa diatasi. Kita bisa memanfaatkan beberapa bumbu dapur atau bahan makanan lain untuk menjadi obat alami untuk sariawan. Dalam artikel ini akan mengulas secara ringkas macam obat alami tersebut.",
@@ -384,6 +408,7 @@
     {
         "id": 25,
         "headline": "Cara agar Tidak Burnout, Kelelahan Mental karena Bekerja",
+        "subheading":"Siapa Saja yang Rentan Mengalami Burn Out",
         "desc": "Setiap pekerjaan pasti memiliki tantangan, hambatan, dan kesulitannya masing-masing. Seringnya ini menjadi salah satu faktor yang membuat seseorang merasa sangat lelah sehingga sebuah pekerjaan tidak dapat dikerjakan dengan cepat dan menguras waktu.",
         "conten": [
             "Burn out adalah kondisi stres kronis di mana pekerja merasa lelah secara fisik, mental, dan emosional gara-gara pekerjaannya. Burn out ditandai dengan tiga hal, pertama kelelahan fisik. Mereka yang mengalami burn out akan selalu merasa kekurangan energi dan merasa lelah sepanjang waktu.",
@@ -400,6 +425,7 @@
     {
         "id": 26,
         "headline": "Apakah Burnout dan Stres Sama?",
+        "subheading": "Berikut perbedaan stres dan burnout. Bila seseorang mengalami stres biasanya tidak bertahan lama.",
         "desc": "Ketika seseorang mengalami burnout, ia akan hilang minat pada semua aktivitasnya seperti pekerjaan, hobi, dan lainnya. Sedangkan bila seseorang mengalami stres, minat pada aktivitas sehari-hari akan muncul kembali setelah stres mereda.",
         "conten": [
             "Berikut perbedaan stres dan burnout. Bila seseorang mengalami stres biasanya tidak bertahan lama. Stres akan langsung mereda apabila penderita beristirahat, pergi liburan, dan melakukan aktivitas menyenangkan yang disukai. Sementara burnout tidak akan mereda dengan mudah, bahkan cenderung bertahan dalam waktu lama. Burnout adalah istilah psikologi yang digunakan untuk menggambarkan perasaan kegagalan dan kelesuan akibat tuntutan yang terlalu membebankan tenaga dan kemampuan seseorang. Burnout akan terjadi ketika level stres karena pekerjaan sudah mencapai titik puncak.",
@@ -416,6 +442,7 @@
     {
         "id": 27,
         "headline": "Ketahui Panduan Makan untuk Mengontrol Gula Darah",
+        "subheading": "Panduan Makan untuk Menjaga Gula Darah",
         "desc": "Untuk pencegahan, kita dapat mengontrol gula darah dengan menjaga pola makan. Membatasi asupan gula dan karbohidrat merupakan kunci utama panduan makan untuk mengontrol gula darah",
         "conten": [
             "Kadar gula darah yang tinggi dapat meningkatkan risiko terkena diabetes dan komplikasi lainnya. Untuk pencegahan, kita dapat mengontrol gula darah dengan menjaga pola makan. Membatasi asupan gula dan karbohidrat merupakan kunci utama panduan makan untuk mengontrol gula darah. Selain itu, kita sebaiknya mengonsumsi makanan kaya serat, lemak sehat, dan probiotik agar gula darah tetap stabil dan meningkatkan respons tubuh terhadap insulin. Artikel berikut akan membahas panduan makan untuk menjaga gula darah yang mungkin perlu Anda ketahui.",
@@ -432,6 +459,7 @@
     {
         "id": 28,
         "headline": "Manfaat Mengejutkan Mendengarkan Musik Metal untuk Kesehatan Mental",
+        "subheading": "Otak Manusia Merespons Musik Dengan Cara yang Menarik",
         "desc": "Perlu diketahui, otak manusia merespons musik dengan cara yang menarik. Banyak orang mungkin mengidentifikasi musik sebagai bentuk ekspresi emosional",
         "conten": [
             "Mungkin sudah banyak yang tahu bahwa musik dapat memengaruhi perasaan hati seseorang. Seperti musik pop yang romantis kala jatuh cinta. Musik metal untuk melepaskan agresi dan emosi yang berlebih. Namun, apakah musik juga punya dampak yang baik bagi kesehatan, terutama untuk musik metal? Bagaimana bisa musik metal yang cadas, keras, dan kadang bikin bising telinga orang-orang ternyata punya dampak yang baik bagi kesehatan?",
@@ -448,6 +476,7 @@
     {
         "id": 29,
         "headline": "Kebiasaan yang Menyebabkan Gula Darah Tinggi, Pantang Disepelekan",
+        "subheading": "Bahaya Gula Darah Jika Tidak Segera Ditangani",
         "desc": "Lonjakan gula darah yang tidak tertangani bisa memicu diabetes, penyakit jantung, masalah pankreas, hingga stroke. Untuk itu, kita perlu mengetahui apa saja kebiasaan yang memicu kenaikan kadar gula darah",
         "conten": [
             "Melewatkan sarapan : Beberapa orang mungkin memilih melewatkan sarapan demi menurunkan berat badan atau mengontrol gula darah. Namun kenyataannya, tidak sarapan justru menyebabkan seseorang berisiko terkena diabetes. Orang yang melewatkan sarapan biasanya justru berusaha menahan lapar dengan menyeduh kopi susu atau teh manis hingga ngemil makanan manis secara berlebihan sambil menunggu jam makan siang tiba. Menurut penelitian yang dipublikasikan di The Journal of Nutrition, sarapan juga penting dilakukan demi mempertahankan indeks massa tubuh (BMI) tetap berada di kisaran normal.",
@@ -463,6 +492,7 @@
     }, {
         "id": 30,
         "headline": "Bye-Bye Bau Mulut Selama Ramadhan",
+        "subheading": "Ada Banyak Tips Untuk Mengatasi Bau Mulut Saat Puasa",
         "desc": "Selama Ramadan, umat muslim berpuasa sebulan penuh. Sepanjang hari, mereka tidak makan dan minum sehingga menyebabkan mulut kering dan kerap memicu bau tidak sedap. Kondisi ini memicu rasa tidak nyaman",
         "conten":  [
             "Selama Ramadan, umat muslim berpuasa sebulan penuh. Sepanjang hari, mereka tidak makan dan minum sehingga menyebabkan mulut kering dan kerap memicu bau tidak sedap. Kondisi ini memicu rasa tidak nyaman dan menurunkan kepercayaan diri ketika berkomunikasi dengan orang lain. Bagaimana cara mengatasinya?",
@@ -479,6 +509,7 @@
     {
         "id": 31,
         "headline": "Prediksi Harga Tiket Mudik 2023 Via Pesawat, Bus dan Kereta",
+        "subheading": "Antusiasme Masyarakat dalam Merayakan Lebaran dan Persiapan Mudik Tahun 2023",
         "desc": "Berdasarkan data dari Kementerian Perhubungan, jumlah pemudik pada tahun 2022 melonjak pesat hingga 85 juta orang. Angka ini merupakan rekor yang paling tinggi dibandingkan selama periode mudik 10 tahun terakhir",
         "conten": [
             "Berdasarkan data dari Kementerian Perhubungan, jumlah pemudik pada tahun 2022 melonjak pesat hingga 85 juta orang. Angka ini merupakan rekor yang paling tinggi dibandingkan selama periode mudik 10 tahun terakhir. Ryan Kartawidjaja, VP of Commercial & Marketing Pegipegi mengatakan, di tahun 2023, diprediksi antusiasme masyarakat untuk mudik masih akan tetap tinggi seperti tahun 2022 lalu.",
@@ -495,6 +526,7 @@
     {
         "id": 32,
         "headline": "Prediksi Harga Tiket Mudik 2023 Via Pesawat, Bus dan Kereta",
+        "subheading": "Antusiasme Masyarakat dalam Merayakan Lebaran dan Persiapan Mudik Tahun 2023",
         "desc": "Berdasarkan data dari Kementerian Perhubungan, jumlah pemudik pada tahun 2022 melonjak pesat hingga 85 juta orang. Angka ini merupakan rekor yang paling tinggi dibandingkan selama periode mudik 10 tahun terakhir",
         "conten": [
             "Berdasarkan data dari Kementerian Perhubungan, jumlah pemudik pada tahun 2022 melonjak pesat hingga 85 juta orang. Angka ini merupakan rekor yang paling tinggi dibandingkan selama periode mudik 10 tahun terakhir. Ryan Kartawidjaja, VP of Commercial & Marketing Pegipegi mengatakan, di tahun 2023, diprediksi antusiasme masyarakat untuk mudik masih akan tetap tinggi seperti tahun 2022 lalu.",
@@ -511,6 +543,7 @@
     {
         "id": 33,
         "headline": "Pemkot Semarang & Solo Kolaborasi Kembangkan Pariwisata",
+        "subheading": "Kerja sama antara Pemerintah Kota Semarang dan Pemerintah Kota Solo untuk pengembangan pariwisata dan budaya.",
         "desc": "Pemerintah Kota Semarang jalin kerja sama dengan Pemerintah Kota Solo. Kerja sama tersebut bertujuan untuk pengembangan pariwisata dan budaya di kedua kota tersebut",
         "conten": [
             "Pemerintah Kota Semarang jalin kerja sama dengan Pemerintah Kota Solo. Kerja sama tersebut bertujuan untuk pengembangan pariwisata dan budaya di kedua kota tersebut. Adapun kerja sama tersebut dilakukan melalui penandatanganan Memorandum of Understanding (MoU) antara Wali Kota Semarang Hevearita Gunaryanti Rahayu dengan Wali Kota Solo Gibran Rakabuming Raka di sela-sela kirab Dugderan, Semarang, Selasa (21/3).Alhamdulillah Dugderan sudah bisa dilakukan secara penuh pada tahun ini, tadi ada kegiatan dan alhamdulillah juga ada penandatanganan terkait pariwisata antara Pemerintah Kota Solo dan Pemerintah Kota Semarang, kata Hevearita dalam keterangan tertulis, Kamis (23/3/2023).",
@@ -527,6 +560,7 @@
     {
         "id": 34,
         "headline": "Taiwan Rela Kasih Ongkos Rp. 2,5 Juta buat Setiap Turis Asing yang datang",
+        "subheading": "Taiwan berikan insentif uang jajan Rp 2,5 juta untuk setiap turis yang datang.",
         "desc": "Dilansir dari CNBC Make It, Selasa (7/img/3/img/2023), pemerintah Taiwan menawarkan turisnya uang sebesar NT$ 5.000 dolar atau sekitar Rp 2,5 juta (kurs Rp 500/img/NT$) per pelancong.",
         "conten": [
             "Taiwan jor-joran memulihkan sektor pariwisatanya dengan memberi uang jajan sebesar Rp 2,5 juta untuk setiap turis yang datang berkunjung. Insentif diberikan dalam rangka memancing kedatangan wisatawan. Mengutip detikFinance, Selasa (7/3/2023), Pemerintah Taiwan menawarkan uang sebesar NT$ 5.000 atau setara Rp 2,5 juta per turis. Sementara, untuk grup turis, dijanjikan NT$ 20 ribu sampai 90 ribu atau setara Rp 10 juta-Rp 45 juta per kelompok. Direktur Jenderal Biro Pariwisata Taiwan Chang Shi-chung mengatakan kunjungan turis di bawah 900 ribu orang pada tahun lalu. Angkanya terbilang jauh dibandingkan rekor 11,8 juta turis pada 2019 lalu.",
@@ -543,6 +577,7 @@
     {
         "id": 35,
         "headline": "Pengembangan Wisata di Timur RI Dinilai Upaya Pemerataan Pembangunan",
+        "subheading": "Wakil Ketua MPR RI Mendorong Pengembangan Pariwisata di Kawasan Timur Indonesia untuk Pemerataan Pembangunan",
         "desc": "Wakil Ketua MPR RI Lestari Moerdijat mengungkapkan upaya pengembangan pariwisata di kawasan timur Indonesia merupakan langkah strategis yang harus dikedepankan",
         "conten": [
             "Wakil Ketua MPR RI Lestari Moerdijat mengungkapkan upaya pengembangan pariwisata di kawasan timur Indonesia merupakan langkah strategis yang harus dikedepankan. Menurutnya, pariwisata merupakan salah satu sektor potensial yang mampu menjadi akselerator pemerataan pembangunan. Berbagai pusat pertumbuhan ekonomi di kawasan timur Indonesia harus terus direalisasikan. Sektor pariwisata sebagai salah satu sektor yang potensial di kawasan itu diharapkan mampu menjadi akselerator pemerataan pembangunan, ujar Lestari dalam keterangan tertulis, Sabtu (4/3/2023). Diketahui, pada ajang East Indonesia Investment Summit 2023 di Makassar, Jumat (3/3), Menteri Pariwisata dan Ekonomi Kreatif (Menparekraf) Sandiaga Uno menargetkan investasi US$ 100 juta dari sektor pariwisata di kawasan timur Indonesia. Target itu disebut berpotensi menciptakan 4,4 juta lapangan kerja baru. Hal ini salah satunya lantaran sejumlah destinasi wisata super prioritas ada di Indonesia timur. Destinasi itu antara lain Likupang (Sulawesi Utara), Mandalika (NTB), dan Labuan Bajo (NTT)",
@@ -559,6 +594,7 @@
     {
         "id": 36,
         "headline": "Siap-siap Turis China Serbu Bali : Direct Flight Tiap Hari Mulai Maret 2023",
+        "subheading": "Penerbangan Langsung China-Bali Mulai Dilakukan Setiap Hari Mulai Maret 2023",
         "desc": "Kepala Dinas Pariwisata Provinsi Bali Tjok Bagus Pemayun menyebut penerbangan langsung (direct flight) dari China ke Bali akan dilakukan setiap hari mulai Maret 2023.",
         "conten": [
             "Kepala Dinas Pariwisata Provinsi Bali Tjok Bagus Pemayun menyebut penerbangan langsung (direct flight) dari China ke Bali akan dilakukan setiap hari mulai Maret 2023. Perdana akan diinisiasi oleh maskapai Xiamen Airlines. 3 Maret 2023 itu kalau tidak salah, Jumat malam Sabtu, pukul 22.30 Wita, perdana direct flight China ke Bali dari Xiamen Airlines, ujarnya ditemui di Kuta, Jumat (24/2/2023).Pemayun bahkan mengaku diundang lnagsung untuk menyambut wisatawan mancanegara (wisman) asal Negeri Tirai Bambu tersebut. Jadwalnya, daily direct flight, imbuh Pemayun",
@@ -575,6 +611,7 @@
     {
         "id": 37,
         "headline": "Desa Wisata Sindangkasih Minta Pemkab Garut Sediakan Akses Internet",
+        "subheading": "Kebutuhan penunjang tempat wisata di Desa Wisata Sindangkasih.",
         "desc": "Desa Sindangkasih di Kecamatan Cilawu menjadi salah satu desa wisata yang ada di Kabupaten Garut. Ciri khas dari desa ini adalah potensi air deras yang dijadikan tempat wisata river tubing",
         "conten": [
             "Desa Sindangkasih di Kecamatan Cilawu menjadi salah satu desa wisata yang ada di Kabupaten Garut. Ciri khas dari desa ini adalah potensi air deras yang dijadikan tempat wisata river tubing. Setiap pengunjung yang masuk ke desa ini harus merogoh kocek Rp 5.000 untuk dewasa dan Rp 3.000 untuk anak-anak. Sementara bagi yang ingin mencoba wahana river tubing, cukup membayar Rp 35.000 untuk dewasa dan Rp 20.000 untuk anak-anak. Salah satu pengelola Desa Wisata Sindangkasih, Dedi, mengungkapkan jika desa wisata ini berdiri atas dasar keinginan dan swadaya masyarakat",
@@ -591,6 +628,7 @@
     {
         "id": 38,
         "headline": "Tak Ada Lagi Wisata Hiu di Pulau Guadalue Meksiko",
+        "subheading": "Pemerintah Meksiko Melarang Aktivitas Wisata yang Berhubungan dengan Hiu di Pulau Guadalupe.",
         "desc": "Sebuah pulau di Meksiko sempat menawarkan wisata hiu yakni dengan melihatnya secara dekat. Namun karena faktor pelestarian, wisata ini ditutup oleh pemerintah",
         "conten": [
             "Sebuah pulau di Meksiko sempat menawarkan wisata hiu yakni dengan melihatnya secara dekat. Namun karena faktor pelestarian, wisata ini ditutup oleh pemerintah. Dikutip detikTravel yang dilansir CNN, Minggu (12/2/2023) Meksiko melarang segala aktivitas wisata yang berhubungan dengan hiu di kawasan populer Samudera Pasifik, tepatnya di Pulau Guadalupe. Pulau ini memang dikenal sebagai tempat untuk melihat hiu putih besar, dengan penyelaman di dalam sangkar, olahraga memancing, dan mengamati hiu dari kapal pesiar.",
@@ -606,6 +644,7 @@
     {
         "id": 39,
         "headline": "Dinas Pariwisata Pede Mobil dan Motor Listrik Tambah Daya Pikat Bali",
+        "subheading":"Pemerintah Provinsi Bali Mendorong Penggunaan Kendaraan Listrik untuk Menunjang Pariwisata Berkelanjutan",
         "desc": "Kepala Dinas Pariwisata Bali Tjok Bagus Pemayun meyakini penggunaan kendaraan listrik akan menambah daya tarik Bali. Apalagi, jika mobil listrik maupun sepeda motor listrik seliweran",
         "conten": [
             "Kepala Dinas Pariwisata Bali Tjok Bagus Pemayun meyakini penggunaan kendaraan listrik akan menambah daya tarik Bali. Apalagi, jika mobil listrik maupun sepeda motor listrik seliweran di kawasan wisata. Hal ini juga sesuai dengan wacana penggunaan kendaraan listrik oleh Gubernur Bali Wayan Koster. Tujuannya, demi mempercepat target mengurangi 41 ribu ton emisi karbon pada 2026 mendatang. Pak Gubernur menginginkan agar Bali sebagai destinasi terfavorit dan sustainable yang sesuai dengan Nangun Sat Kerthi Loka Bali. Salah satunya, mendorong penggunaan kendaraan listrik utamanya di kawasan pariwisata, ungkap Tjok Bagus, Senin (30/1/2023)",
@@ -621,6 +660,7 @@
     {
         "id": 40,
         "headline": "Pariwisata Sabang Bangkit, 8 Kapal Pesiar Akan Singgah di 2023",
+        "subheading": "Kunjungan Kapal Pesiar Menjadi Tanda Pariwisata Sabang Mulai Bangkit",
         "desc": "Pariwisata Sabang Bangkit, 8 Kapal Pesiar Akan Singgah di 2023. Kapal pesiar MV. Seabourn Encore yang membawa ratusan turis singgah di Sabang, Aceh. ",
         "conten": [
             "Kapal pesiar MV. Seabourn Encore yang membawa ratusan turis singgah di Sabang, Aceh. Kunjungan itu disebut menjadi tanda pariwisata kota ujung paling barat Indonesia ini mulai bangkit. Kapal MV. Seabourn tiba pagi tadi dan berlabuh di Pelabuhan CT3 BPKS Sabang, Senin (19/12/2022). Kedatangan kapal yang berlayar dari Maldives ini disambut Pj Wali Kota Sabang Reza Fahlevi dan sejumlah pejabat. Para turis disuguhkan tarian khas Aceh serta ditawarkan sejumlah paket wisata. Pelancong itu akan menikmati keindahan alam Sabang sebelum melanjutkan perjalanan ke Phuket, Thailand.",
@@ -637,6 +677,7 @@
     {
         "id": 41,
         "headline": "Warga Palestina Bersihkan Aqsa Sambut Ramadhan",
+        "subheading": "Israel membatasi akses ibadah ke Masjid Al-Aqsa selama Ramadan untuk warga Palestina di Tepi Barat dan Gaza.",
         "desc": "Warga Palestina dari berbagai penjuru datang berbondong-bondong membersihkan kompleks Masjid Al-Aqsa untuk menyambut bulan suci Ramadan 1444 H",
         "conten": [
             " Israel membatasi warga Palestina yang ingin ibadah di masjid al-aqsa di wilayah pendudukan di Tepi Barat. Israel menegaskan pria Palestina berusia 12 hingga 55 tahun dilarang memasuki Masjid Al-Aqsa untuk Salat Jumat selama bulan Ramadan. Unit Koordinasi dari Aktivitas Pemerintah di Wilayah Palestina (COGAT), yang terafiliasi dengan tentara Israel mengatakan kondisi bagi warga Palestina yang beribadah di Masjid Al-Aqsa saat Ramadan telah ditentukan. Namun, perempuan Palestina yang tinggal di Tepi Barat, anak di bawah usia 12 tahun, dan pria Palestina di atas 55 tahun bisa memasuki Masjid Al-Aqsa tanpa izin setiap hari Jumat. Dikutip dari Daily Sabah, Rabu (22/3/2023), pria Palestina yang berusia antara 45 tahun hingga 55 tahun, harus memiliki izin khusus untuk datang ke Masjid dan beribadah. Sementara itu, sejumlah perempuan berusia 50 tahun ke atas, dan pria berusia 55 tahun ke atas yang tinggal di Gaza diizinkan mendatangi Yerusalem antara Minggu dan Kamis. Sementara itu, warga Palestina yang tinggal di Tepi Barat diizinkan mengunjungi keluarganya yang tinggal di Israel saat Ramadan.Mereka yang tinggal di luar negeri juga diizinkan untuk mengunjungi keluarganya di Tepi Barat.",
@@ -652,6 +693,7 @@
     {
         "id": 42,
         "headline": "Israel Batasi Palestin ke Masjid Al Aqsa",
+        "subheading" : "Israel membatasi akses warga Palestina ke Masjid Al-Aqsa selama Ramadan dan memerlukan izin keamanan untuk mengunjungi tempat suci dan keluarga di Israel.",
         "desc": "Israel mengumumkan berbagai aturan untuk warga Palestina selama bulan Ramadan, salah satunya pembatasan mengunjungi Masjid Al-Aqsa. ",
         "conten": [
             " Israel membatasi warga Palestina yang ingin ibadah di masjid al-aqsa di wilayah pendudukan di Tepi Barat. Israel menegaskan pria Palestina berusia 12 hingga 55 tahun dilarang memasuki Masjid Al-Aqsa untuk Salat Jumat selama bulan Ramadan. Unit Koordinasi dari Aktivitas Pemerintah di Wilayah Palestina (COGAT), yang terafiliasi dengan tentara Israel mengatakan kondisi bagi warga Palestina yang beribadah di Masjid Al-Aqsa saat Ramadan telah ditentukan. Namun, perempuan Palestina yang tinggal di Tepi Barat, anak di bawah usia 12 tahun, dan pria Palestina di atas 55 tahun bisa memasuki Masjid Al-Aqsa tanpa izin setiap hari Jumat. Dikutip dari Daily Sabah, Rabu (22/3/2023), pria Palestina yang berusia antara 45 tahun hingga 55 tahun, harus memiliki izin khusus untuk datang ke Masjid dan beribadah. Sementara itu, sejumlah perempuan berusia 50 tahun ke atas, dan pria berusia 55 tahun ke atas yang tinggal di Gaza diizinkan mendatangi Yerusalem antara Minggu dan Kamis. Sementara itu, warga Palestina yang tinggal di Tepi Barat diizinkan mengunjungi keluarganya yang tinggal di Israel saat Ramadan.Mereka yang tinggal di luar negeri juga diizinkan untuk mengunjungi keluarganya di Tepi Barat.",
@@ -667,6 +709,7 @@
     {
         "id": 43,
         "headline": "Beijing Diserbu Badai Pasir, Polusi Udara Melonjak ke Tingkat Bahaya",
+        "subheading" : "Awan Tebal disertai Badai pasir melanda Beijing dan beberapa provinsi di China Utara.",
         "desc": "Awan tebal itu menyelimuti ibu kota China dan membuat indeks kualitas polusi udara melonjak ke tingkat berbahaya yaitu PM10, dengan partikel polusi berdiameter kurang dari 10 mikrometer",
         "conten":[
             "Badai pasir menyelimuti Beijing dan beberapa provinsi di China Utara. Menurut lembaga pemantauan cuaca di negara tersebut, wilayah itu diterjang awan tebal dengan debu-debu oranye yang berterbangan. Awan tebal itu menyelimuti ibu kota China dan membuat indeks kualitas polusi udara melonjak ke tingkat berbahaya yaitu PM10, dengan partikel polusi berdiameter kurang dari 10 mikrometer. Pusat Pemantauan Lingkungan Ekologi Beijing mengatakan partikel itu berpotensi masuk melalui hidung hingga ke paru-paru Otoritas cuaca di Beijing memberi imbauan kepada warga untuk tidak keluar rumah, berolahraga, dan aktivitas lainnya. Mereka juga meminta pengemudi untuk tetap waspada dan mengurangi kecepatan lantaran jarak pandang sangat pendek",
@@ -682,6 +725,7 @@
     {
         "id": 44,
         "headline": "China Klaim Usir Kapal Perang AS dari Laut China Selatan",
+        "subheading" : "Ketegangan semakin meningkat antara AS dan China di LCS, yang merupakan jalur air strategis dengan klaim kedaulatan yang tumpang tindih oleh beberapa negara.",
         "desc": "China mengklaim kedaulatan atas hampir seluruh LCS, jalur air strategis yang dilalui perdagangan triliunan dolar setiap tahun, meski pengadilan internasional memutuskan pernyataan itu tidak punya dasar hukum",
         "conten": [
             "Militer China pada Kamis (23/3) mengklaim pihaknya memperingatkan kapal perang AS untuk meninggalkan perairan di Laut China Selatan (LCS) yang disengketakan. China mengklaim kedaulatan atas hampir seluruh LCS, jalur air strategis yang dilalui perdagangan triliunan dolar setiap tahun, meski pengadilan internasional memutuskan pernyataan itu tidak punya dasar hukum. Filipina, Vietnam, Malaysia, dan Brunei juga memiliki klaim yang tumpang tindih atas laut tersebut, sementara itu AS mengirimkan kapal angkatan laut untuk menegaskan kebebasan navigasi di perairan internasional.,Komando Teater Selatan Tentara Pembebasan Rakyat China (PLA) mengatakan USS Milius, sebuah kapal berpeluru kendali, memasuki perairan di sekitar Kepulauan Paracel, yang juga diklaim Vietnam pada Kamis (23/3),PLA mengorganisir angkatan laut dan udara untuk melacak dan memantau (kapal) sesuai dengan hukum dan memperingatkannya untuk pergi, kata juru bicara PLA Tian Junli, seperti diberitakan AFP. Kapal itu melakukan serangan ilegal ke perairan teritorial China, tanpa izin dari pemerintah China, merusak perdamaian dan stabilitas di kawasan itu, katanya. Militer AS dengan cepat membantah klaim tersebut dan mengatakan bahwa pernyataan China salah",
@@ -697,6 +741,7 @@
     {
         "id": 45,
         "headline": "Platform Pencarian Kerja Indeed Akan Lakukan PHK Besar-besaran",
+        "subheading" : "Indeed melakukan PHK besar-besaran untuk menyesuaikan diri dengan tingkat lowongan pekerjaan yang menurun akibat pandemi",
         "desc": "Platform pencarian kerja secara online yang berbasis di Amerika Serikat, Indeed, mengumumkan akan memangkas sekitar 2.200 pekerja atau 15% dari keseluruhan tenaga kerjanya",
         "conten":[
             "Langkah Pemutusan Hubungan Kerja (PHK) besar-besaran yang dilakukan Indeed ini menjadikan perusahaan ini bergabung dengan sejumlah perusahaan Amerika Serikat lainnya yang melakukan rasionalisasi tenaga kerja mereka setelah perekrutan secara besar-besaran pada saat itu yang dipicu oleh pandemi. Seperti dilansir Reuters pada Kamis (23/3), Chief Executive Officer Indeed Chris Hyams mengatakan bahwa lowongan pekerjaan di masa depan secara umum berada pada atau di bawah tingkat sebelum pandemi dan Indeed memiliki terlalu banyak pekerja saat ini.",
@@ -712,6 +757,7 @@
     {
         "id": 46,
         "headline": "Bank Dunia: Biaya Pembangunan Kembali Ukraina Bisa Mencapai US$ 411 Miliar",
+        "subheading" : "Ukraina Membutuhkan US$ 411 Miliar untuk Rekonstruksi Pasca Perang, Menurut Bank Dunia",
         "desc": "Bank Dunia baru-baru ini memperkirakan bahwa Ukraina akan membutuhkan hingga US$ 411 miliar atau setara dengan Rp 6,19 triliun untuk membangun kembali negaranya yang hancur akibat perang.",
         "conten": [
             "Bank Dunia baru-baru ini memperkirakan bahwa Ukraina akan membutuhkan hingga US$ 411 miliar atau setara dengan Rp 6,19 triliun untuk membangun kembali negaranya yang hancur akibat perang. Dalam laporan yang mereka rilis hari Rabu (22/3), Bank Dunia bahwa jumlah itu akan dibutuhkan selama jangka waktu 10 tahun. Angka itu juga harus dianggap sebagai batas minimum karena kerusakan masih akan terus bertambah. Penilaian tersebut ditaksir oleh Bank Dunia, pemerintah Ukraina, Komisi Eropa, serta PBB. Jumlahnya naik dari US$ 349 miliar yang mereka perkirakan pada bulan September 2022. Mengutip Al Jazeera, laporan itu menghitung kerusakan langsung pada bangunan dan infrastruktur sebesar US$ 135 miliar hingga saat ini. Jumlah itu belum termasuk dampak ekonomi yang lebih luas dari konflik yang berlangsung lebih dari setahun.",
@@ -727,6 +773,7 @@
     {
         "id": 47,
         "headline": "Kredivo Holding Dapatkan Pendanaan Seri D Senilai US$ 270 Juta yang Dipimpin Mizuho",
+        "subheading" : "Kredivo Holdings mengumpulkan dana US$ 270 juta dalam putaran pendanaan ekuitas seri D yang dipimpin oleh Mizuho Bank dan investor top tier.",
         "desc": "Kredivo Holdings, perusahaan induk dari Kredivo dan Krom Bank Indonesia mengumumkan telah mengumpulkan dana senilai US$ 270 juta dalam putaran pendanaan ekuitas seri D yang oversubscribed.",
         "conten":[
             "Kredivo Holdings, perusahaan induk dari Kredivo dan Krom Bank Indonesia mengumumkan telah mengumpulkan dana senilai US$ 270 juta dalam putaran pendanaan ekuitas seri D yang oversubscribed. Putaran ini dipimpin oleh bank global dari Jepang yaitu Mizuho Bank, Ltd., anak perusahaan dari Mizuho Financial Group, Inc. (Mizuho) dan juga menarik investor top tier Kredivo Holdings yang terdahulu, antara lain Square Peg Capital, Jungle Ventures, Naver Financial Corporation, GMO Venture Partners, dan Openscape Ventures.",
@@ -743,6 +790,7 @@
     {
         "id": 48,
         "headline": "Google Meluncurkan Bard, Siap Jadi Rival ChatGPT Milik Microsoft",
+        "subheading" : "Google Meluncurkan AI Chatbot Bard sebagai Pesaing ChatGPT",
         "desc": "Google resmi meluncurkan layanan AI chatbot pesaing ChatGPT bernama Bard. Untuk sementara, Bard akan tersedia untuk pengguna di Inggris dan Amerika Serikat.",
         "conten": [
             "Google resmi meluncurkan layanan AI chatbot pesaing ChatGPT bernama Bard. Untuk sementara, Bard akan tersedia untuk pengguna di Inggris dan Amerika Serikat. Pada dasarnya Bard memiliki fungsi yang serupa dengan ChatGPT, yaitu mampu menghasilkan esai, puisi, atau kode komputer sesuai perintah pengguna. CEO Google, Sundar Pichai, pada hari Selasa (21/3) mengatakan bahwa Bard akan diluncurkan ke publik Inggris dan AS setelah diuji ke 80.000 karyawan. Setelahnya, Bard juga akan tersedia di negara lain.",
@@ -759,6 +807,7 @@
     {
         "id": 49,
         "headline": "Pertama Kalinya dalam Sejarah, London Penuh dengan Dekorasi Bulan Ramadhan",
+        "subheading" : "London Terangi Bulan Ramadhan dengan Dekorasi Spesial",
         "desc": "Distrik terkenal di ibu kota Inggris ini telah dihiasi dengan lentera  dan lampu berbentuk bulan sabit dan bintang, dengan kata-kata Happy Ramadan yang didirikan di Coventry Street antara Piccadilly dan Leicester Square, untuk mengantar dimulainya bulan suci Ramadhan",
         "conten": [
             "Pertama Kalinya dalam Sejarah, London Penuh dengan Dekorasi Bulan Ramadhan. Dikutip Arab News, daerah ini populer di kalangan wisatawan dari Teluk dan sebagian besar populasi Muslim kota – yang mencapai sekitar 15 persen dari total – karena peluang belanja, restoran, dan tempat hiburannya yang terkenal secara internasional.Dilansir dari Time Out, Jumat (24/3/2023), seluruh umat Islam di dunia sekarang mulai berpuasa dari fajar hingga matahari terbenam ketika bulan Ramadhan terlihat. Tahun ini diharapkan kita berpuasa hingga 21 April sebelum merayakan Idulfitri. Namun, perayaan bulan suci di kota London tahun ini sedikit berbeda dengan tahun-tahun sebelumnya. Untuk pertama kalinya, Ramadhan dirayakan dengan cahaya di jantung kota dan juga di Sirkus Piccadilly.Menurut Time Out, Ramadan Lights adalah dekorasi penerangan pertama yang merayakan bulan suci di Inggris dan Eropa.",
@@ -774,6 +823,7 @@
     {
         "id": 50,
         "headline": "Chelsea Bakal Gelar Buka Puasa Bersama di Stamford Bridge",
+        "subheading" : "Chelsea Foundation dan Ramadan Tent Project Menggelar Acara Buka Puasa Terbuka di Stamford Bridge, Klub Premier League Pertama yang Melakukannya",
         "desc": "Hal ini Jadi yang pertam di Inggris, Bola.net - Klub raksasa Premier League Chelsea akan menggelar acara buka puasa bersama pada hari Minggu (26/img/03/img/2023) nanti. Acara buka puasa bersama itu nantinya akan digelar di Stadion Stamford Bridge. ",
         "conten": [
             "Mereka tak sendirian. Chelsea Foundation menggandeng Ramadan Tent Project, sebuah badan amal yang telah mendapat banyak pujian dan memenangkan penghargaan yang didirikan pada 2013 untuk menyatukan komunitas dan mendorong apresiasi Ramadhan. Acara buka puasa ini menjadi acara yang bersejarah. Sebab Chelsea jadi klub Premier League pertama yang menggelar acara tersebut.",
