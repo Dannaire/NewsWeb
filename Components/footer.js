@@ -1,7 +1,36 @@
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
-import React from "react";
 
 function footer() {
+  const router = useRouter();
+  const [searchResults, setSearchResults] = useState([]);
+  const [filteredResults, setFilteredResults] = useState([]); // add filteredResults state
+  const url = "/data/data.json";
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+        setSearchResults(data);
+      } catch (error) {
+        console.error(error);
+      }
+    }
+    fetchData();
+  }, []);
+
+  const handleCategoryClick = (category) => {
+    const filteredData = searchResults.filter(
+      (result) => result.category === category
+    );
+    router.push({
+      pathname: `/category/${category}`,
+      query: { filteredData: JSON.stringify(filteredData) },
+    });
+  };
+
   return (
     <div>
       <footer className="bg-white dark:bg-gray-900">
@@ -9,16 +38,7 @@ function footer() {
           <div className="lg:flex">
             <div className="w-full -mx-6 lg:w-2/5">
               <div className="px-6">
-                <div>
-                  <img
-                    className="w-auto h-7"
-                    src="https://flowbite.com/docs/images/logo.svg"
-                    alt=""
-                  />
-                  <span className="text-gray-500 dark:text-gray-400">
-                    Daily News Actual
-                  </span>
-                </div>
+                <img className="w-auto h-12" src="/flowbt.svg" alt="" />
                 <div className="flex mt-6 -mx-2">
                   <Link
                     href="#"
@@ -78,69 +98,56 @@ function footer() {
                   >
                     Company
                   </Link>
-                  <Link
-                    href="/contact"
-                    className="footer"
-                  >
+                  <Link href="/contact" className="footer">
                     Advertisement
                   </Link>
-                  <Link
-                    href="#"
-                    className="footer"
-                  >
+                  <Link href="#" className="footer">
                     More Articles
                   </Link>
                 </div>
 
                 <div>
-                  <Link
-                    href="/"
-                    className="footer"
-                  >
+                  <Link href="/" className="footer">
                     Home
                   </Link>
-                  <Link
-                    href="/business"
+                  <button
                     className="footer"
+                    onClick={() => handleCategoryClick("business")}
                   >
                     Business
-                  </Link>
-                  <Link
-                    href="/sport"
+                  </button>
+                  <button
                     className="footer"
+                    onClick={() => handleCategoryClick("Sport")}
                   >
                     Sport
-                  </Link>
+                  </button>
                 </div>
 
                 <div>
-                  <Link
-                    href="/health"
+                  <button
                     className="footer"
+                    onClick={() => handleCategoryClick("health")}
                   >
                     Health
-                  </Link>
-                  <Link
-                    href="/travel"
+                  </button>
+                  <button
                     className="footer"
+                    onClick={() => handleCategoryClick("travel")}
                   >
                     Travel
-                  </Link>
-                  <Link
-                    href="/world"
+                  </button>
+                  <button
                     className="footer"
+                    onClick={() => handleCategoryClick("World")}
                   >
                     World
-                  </Link>
+                  </button>
                 </div>
 
                 <div>
-                  <span className="footer">
-                    +1 911 911 9111
-                  </span>
-                  <span className="footer">
-                    dailynews@actual.com
-                  </span>
+                  <span className="footer">+1 911 911 9111</span>
+                  <span className="footer">dailynews@actual.com</span>
                 </div>
               </div>
             </div>

@@ -6,22 +6,22 @@ import "slick-carousel/slick/slick-theme.css";
 function hero() {
   const [searchResults, setSearchResults] = useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(
-          "https://api.jsonbin.io/v3/b/6419d536c0e7653a058beae8"
-        );
-        const data = await response.json();
-        setSearchResults(data.record);
-        console.log("API data fetched successfully!");
-      } catch (err) {
-        console.log(err);
-      }
-    };
+  const url = "/data/data.json";
 
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+        setSearchResults(data);
+      } catch (error) {
+        console.error(error);
+      }
+    }
     fetchData();
   }, []);
+
+  const display = searchResults.filter((result) => result.hero);
 
   const setting = {
     dots: true,
@@ -35,16 +35,41 @@ function hero() {
   };
 
   return (
-    <section className="content mt-16 bg-white dark:bg-gray-900 z-0">
-      <div className="text-white text-3xl font-bold ">Now Happening</div>
+    <section className="content mt-14 bg-white dark:bg-gray-900 z-0">
+      <div className="text-white text-3xl font-bold py-6 pl-4">
+        Now Happening
+      </div>
       <Slider {...setting}>
-        {searchResults.map((result) => (
-          <div key={result.id}>
+
+        {display.map((result) => (
+          <div key={result.id} className="relative">
             <img
               src={result.image}
               alt={result.title}
-              className="object-cover w-full h-[500px] aspect-video"
+              className="object-cover w-screen h-[550px] aspect-video"
             />
+            <div className="absolute bottom-0 left-0 p-4 bg-gray-900 bg-opacity-60 text-white">
+              <div className="text-center text-lg font-[550]">
+                {result.headline}
+              </div>
+              <button>
+                <a className=" inline-flex items-center md:mb-2 lg:mb-0">
+                  Read More{" "}
+                  <svg
+                    className="w-4 h-4 ml-2 transition-transform duration-500 hover:translate-x-4"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </button>
+            </div>
           </div>
         ))}
       </Slider>
