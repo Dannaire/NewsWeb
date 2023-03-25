@@ -46,7 +46,7 @@ function CategoryPage({ resultcategory, filteredData }) {
             <a href="#">
               <h2 className="text-3xl font-bold capitalize text-white mb-3 overflow-hidden overflow-ellipsis">{result.headline}</h2>
             </a>
-            <p className="text-gray-100 hidden sm:inline-block overflow-hidden overflow-ellipsis"style={{ display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' }}>{result.desc}</p>
+            <p className="text-gray-100 hidden sm:inline-block overflow-hidden overflow-ellipsis" style={{ display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' }}> {result.desc} </p>
             <div className="pt-2">
               <div className="text-gray-100"><div className="inline-block h-3 border-l-2 border-red-600 mr-2" />Europe</div>
             </div>
@@ -66,7 +66,7 @@ function CategoryPage({ resultcategory, filteredData }) {
               </a>
               <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full bg-gradient-cover">
                 <a href="#">
-                  <h2 className="text-lg font-bold capitalize leading-tight text-white mb-1 overflow-hidden overflow-ellipsis"style={{ display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' }}>{result.headline}</h2>
+                  <h2 className="text-lg font-bold capitalize leading-tight text-white mb-1 overflow-hidden overflow-ellipsis" style={{ display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' }}>{result.headline}</h2>
                 </a>
                 <div className="pt-1">
                   <div className="text-gray-100"><div className="inline-block h-3 border-l-2 border-red-600 mr-2" />{result.category}</div>
