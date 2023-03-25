@@ -74,13 +74,13 @@ function Nav() {
               <button
               className="nav"
               onClick={() => handleCategoryClick("health")}
-            >health</button>
+            >Health</button>
               </li>
               <li>
               <button
               className="nav"
               onClick={() => handleCategoryClick("travel")}
-            >travel</button>
+            >Travel</button>
               </li>
               <li>
               <button
