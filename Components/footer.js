@@ -4,31 +4,8 @@ import Link from "next/link";
 
 function footer() {
   const router = useRouter();
-  const [searchResults, setSearchResults] = useState([]);
-  const [filteredResults, setFilteredResults] = useState([]); // add filteredResults state
-  const url = "/data/data.json";
-
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch(url);
-        const data = await response.json();
-        setSearchResults(data);
-      } catch (error) {
-        console.error(error);
-      }
-    }
-    fetchData();
-  }, []);
-
   const handleCategoryClick = (category) => {
-    const filteredData = searchResults.filter(
-      (result) => result.category === category
-    );
-    router.push({
-      pathname: `/category/${category}`,
-      query: { filteredData: JSON.stringify(filteredData) },
-    });
+    router.push(`/category/${category}`);
   };
 
   return (

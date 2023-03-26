@@ -4,31 +4,8 @@ import { useRouter } from "next/router";
 
 function Nav() {
   const router = useRouter();
-  const [searchResults, setSearchResults] = useState([]);
-  const [filteredResults, setFilteredResults] = useState([]); // add filteredResults state
-  const url = "/data/data.json";
-
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch(url);
-        const data = await response.json();
-        setSearchResults(data);
-      } catch (error) {
-        console.error(error);
-      }
-    }
-    fetchData();
-  }, []);
-
   const handleCategoryClick = (category) => {
-    const filteredData = searchResults.filter(
-      (result) => result.category === category
-    );
-    router.push({
-      pathname: `/category/${category}`,
-      query: { filteredData: JSON.stringify(filteredData) },
-    });
+    router.push(`/category/${category}`);
   };
 
   return (
@@ -53,12 +30,19 @@ function Nav() {
                 </Link>
               </li>
               <li>
+<<<<<<< HEAD
                 <button
                   className="nav"
                   onClick={() => handleCategoryClick("business")}
                 >
                   Business
                 </button>
+=======
+              <button
+              className="nav"
+              onClick={() => handleCategoryClick("Business")}
+            >Business</button>
+>>>>>>> 8fc2b7c55cadb922f3956ada5e410b1b64e249a1
               </li>
               <li>
                 <button
@@ -69,6 +53,7 @@ function Nav() {
                 </button>
               </li>
               <li>
+<<<<<<< HEAD
                 <button
                   className="nav"
                   onClick={() => handleCategoryClick("health")}
@@ -83,6 +68,18 @@ function Nav() {
                 >
                   travel
                 </button>
+=======
+              <button
+              className="nav"
+              onClick={() => handleCategoryClick("Health")}
+            >Health</button>
+              </li>
+              <li>
+              <button
+              className="nav"
+              onClick={() => handleCategoryClick("Travel")}
+            >Travel</button>
+>>>>>>> 8fc2b7c55cadb922f3956ada5e410b1b64e249a1
               </li>
               <li>
                 <button
@@ -101,4 +98,9 @@ function Nav() {
   );
 }
 
+<<<<<<< HEAD
 export default Nav;
+=======
+
+export default Nav;
+>>>>>>> 8fc2b7c55cadb922f3956ada5e410b1b64e249a1

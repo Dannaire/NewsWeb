@@ -1,10 +1,16 @@
+import { useState, useEffect } from "react";
+import { useRouter } from 'next/router';
 import Nav from "../../Components/nav";
 import Footer from "@/Components/footer";
 import Heads from "@/Components/head";
+import data from '../../public/data/data.json'
 
 export async function getServerSideProps(context) {
   const { resultcategory } = context.query;
-  const filteredData = JSON.parse(context.query.filteredData);
+  const category = resultcategory.toLowerCase();
+
+  // Filter the data based on the category name
+  const filteredData = data.filter((item) => item.category === category);
 
   return {
     props: {
@@ -14,7 +20,12 @@ export async function getServerSideProps(context) {
   };
 }
 
+
 function CategoryPage({ resultcategory, filteredData }) {
+  const router = useRouter();
+  const handleNewsClick = (resultId) => {
+    router.push(`/detail/${resultId}`);
+  };
   return (
     <div>
       <Heads />
@@ -28,7 +39,7 @@ function CategoryPage({ resultcategory, filteredData }) {
       ))} */}
       <div className="bg-white py-6 mt-12">
         {/* {searchResults.slice(0, 1).map((result) => ( */}
-        <div className="xl:container mx-auto px-3 sm:px-4 xl:px-2">
+        <div className="xl:container mx-auto px-3 sm:px-8 xl:px-8">
           {/* big grid 1 */}
           <div className="w-full py-3">
             <h2 className="text-gray-800 text-2xl font-bold">
@@ -94,7 +105,7 @@ function CategoryPage({ resultcategory, filteredData }) {
                         />
                       </a>
                       <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full bg-gradient-cover">
-                        <a href="#">
+                      <button onClick={() => handleNewsClick(result.id)} >
                           <h2
                             className="text-lg font-bold capitalize leading-tight text-white mb-1 overflow-hidden overflow-ellipsis"
                             style={{
@@ -105,7 +116,8 @@ function CategoryPage({ resultcategory, filteredData }) {
                           >
                             {result.headline}
                           </h2>
-                        </a>
+                       
+                        </button>
                         <div className="pt-1">
                           <div className="text-gray-100">
                             <div className="inline-block h-3 border-l-2 border-red-600 mr-2" />
@@ -126,7 +138,7 @@ function CategoryPage({ resultcategory, filteredData }) {
       <main id="content">
         {/* advertisement */}
         <div className="bg-gray-50 py-4 hidden">
-          <div className="xl:container mx-auto px-3 sm:px-4 xl:px-2">
+          <div className="xl:container mx-auto px-3 sm:px-8 xl:px-8">
             <div className="mx-auto table text-center text-sm">
               <a className="uppercase" href="#">
                 Advertisement
@@ -139,7 +151,8 @@ function CategoryPage({ resultcategory, filteredData }) {
         </div>
         {/* block news */}
         <div className="bg-gray-50 py-6">
-          <div className="xl:container mx-auto px-3 sm:px-4 xl:px-2">
+          
+          <div className="xl:container mx-auto px-3 sm:px-8 xl:px-8">
             <div className="flex flex-row flex-wrap">
               {/* Left */}
               <div className="flex-shrink max-w-full w-full lg:w-2/3  overflow-hidden">
@@ -211,7 +224,7 @@ function CategoryPage({ resultcategory, filteredData }) {
                               WebkitBoxOrient: "vertical",
                             }}
                           >
-                            <a href="#">{result.headline}</a>
+                            <button className="text-left" onClick={() => handleNewsClick(result.id)} ><a href="#">{result.headline}</a></button> 
                           </h3>
                           <p
                             className="hidden md:block text-gray-600 leading-tight mb-1 overflow-hidden overflow-ellipsis"
