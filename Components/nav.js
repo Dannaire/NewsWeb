@@ -4,28 +4,9 @@ import { useRouter } from 'next/router';
 
 function Nav() {
   const router = useRouter();
-  const [searchResults, setSearchResults] = useState([]);
-  const [filteredResults, setFilteredResults] = useState([]); // add filteredResults state
-  const url = "/data/data.json";
-
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch(url);
-        const data = await response.json();
-        setSearchResults(data);
-      } catch (error) {
-        console.error(error);
-      }
-    }
-    fetchData();
-  }, []);
-
   const handleCategoryClick = (category) => {
     router.push(`/category/${category}`);
   };
-  
-
 
   return (
     <div>
@@ -55,26 +36,26 @@ function Nav() {
               <li>
               <button
               className="nav"
-              onClick={() => handleCategoryClick("business")}
+              onClick={() => handleCategoryClick("Business")}
             >Business</button>
               </li>
               <li>
                 
               <button
               className="nav"
-              onClick={() => handleCategoryClick("sport")}
+              onClick={() => handleCategoryClick("Sport")}
             >Sport</button>
               </li>
               <li>
               <button
               className="nav"
-              onClick={() => handleCategoryClick("health")}
+              onClick={() => handleCategoryClick("Health")}
             >Health</button>
               </li>
               <li>
               <button
               className="nav"
-              onClick={() => handleCategoryClick("travel")}
+              onClick={() => handleCategoryClick("Travel")}
             >Travel</button>
               </li>
               <li>

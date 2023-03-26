@@ -22,7 +22,7 @@ function Bloglink() {
     <>
 {/* block news */}
 <div className="bg-gray-50 py-6">
-        <div className="xl:container mx-auto px-3 sm:px-4 xl:px-2">
+        <div className="xl:container mx-auto px-3 sm:px-8 xl:px-8">
           <div className="flex flex-row flex-wrap">
             {/* Left */}
             <div className="flex-shrink max-w-full w-full lg:w-2/3  overflow-hidden">

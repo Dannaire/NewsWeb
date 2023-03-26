@@ -32,7 +32,7 @@ function CategoryPage({ resultcategory, filteredData }) {
       ))} */}
       <div className="bg-white py-6 mt-12">
         {/* {searchResults.slice(0, 1).map((result) => ( */}
-        <div className="xl:container mx-auto px-3 sm:px-4 xl:px-2">
+        <div className="xl:container mx-auto px-3 sm:px-8 xl:px-8">
           {/* big grid 1 */}
           <div className="w-full py-3">
             <h2 className="text-gray-800 text-2xl font-bold">
@@ -130,7 +130,7 @@ function CategoryPage({ resultcategory, filteredData }) {
       <main id="content">
         {/* advertisement */}
         <div className="bg-gray-50 py-4 hidden">
-          <div className="xl:container mx-auto px-3 sm:px-4 xl:px-2">
+          <div className="xl:container mx-auto px-3 sm:px-8 xl:px-8">
             <div className="mx-auto table text-center text-sm">
               <a className="uppercase" href="#">
                 Advertisement
@@ -144,7 +144,7 @@ function CategoryPage({ resultcategory, filteredData }) {
         {/* block news */}
         <div className="bg-gray-50 py-6">
           
-          <div className="xl:container mx-auto px-3 sm:px-4 xl:px-2">
+          <div className="xl:container mx-auto px-3 sm:px-8 xl:px-8">
             <div className="flex flex-row flex-wrap">
               {/* Left */}
               <div className="flex-shrink max-w-full w-full lg:w-2/3  overflow-hidden">
