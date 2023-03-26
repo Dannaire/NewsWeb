@@ -22,15 +22,10 @@ function Nav() {
   }, []);
 
   const handleCategoryClick = (category) => {
-    const filteredData = searchResults.filter(
-      (result) => result.category === category
-    );
-    router.push({
-      pathname: `/category/${category}`,
-      query: { filteredData: JSON.stringify(filteredData) },
-    });
+    router.push(`/category/${category}`);
   };
   
+
 
   return (
     <div>
@@ -67,7 +62,7 @@ function Nav() {
                 
               <button
               className="nav"
-              onClick={() => handleCategoryClick("Sport")}
+              onClick={() => handleCategoryClick("sport")}
             >Sport</button>
               </li>
               <li>
@@ -97,5 +92,6 @@ function Nav() {
     </div>
   );
 }
+
 
 export default Nav;

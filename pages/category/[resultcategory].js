@@ -1,10 +1,14 @@
 import Nav from "../../Components/nav";
 import Footer from "@/Components/footer";
 import Heads from "@/Components/head";
+import data from '../../public/data/data.json'
 
 export async function getServerSideProps(context) {
   const { resultcategory } = context.query;
-  const filteredData = JSON.parse(context.query.filteredData);
+  const category = resultcategory.toLowerCase();
+
+  // Filter the data based on the category name
+  const filteredData = data.filter((item) => item.category === category);
 
   return {
     props: {
