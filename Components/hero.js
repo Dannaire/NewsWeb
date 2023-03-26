@@ -39,7 +39,7 @@ function hero() {
       <div className="text-white text-3xl font-bold py-6 pl-4">
         Now Happening
       </div>
-      <Slider {...setting}>
+      <Slider {...setting}  dotsClass="slick-dots">
 
         {display.map((result) => (
           <div key={result.id} className="relative scale-95  ">
@@ -48,7 +48,7 @@ function hero() {
               alt={result.title}
               className="object-cover w-screen h-[550px] aspect-video "
             />
-            <div className="absolute bottom-0 left-0 p-4 bg-gray-900 bg-opacity-60 text-white">
+            <div className="absolute bottom-0 left-0 p-4 bg-gray-900 bg-opacity-60 text-white max-lg:w-full">
               <div className="text-center text-lg font-[550]">
                 {result.headline}
               </div>
