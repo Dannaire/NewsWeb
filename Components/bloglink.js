@@ -63,7 +63,7 @@ function Bloglink() {
                         </h3>
                       <p className="hidden md:block text-gray-600 leading-tight mb-1 overflow-hidden overflow-ellipsis" style={{ display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical' }}>{result.desc}</p>
 
-                      <a className="text-gray-500" href="#"><span className="inline-block h-3 border-l-2 border-red-600 mr-2" />{result.category}</a>
+                      <a className="text-gray-500" href="#"><span className="inline-block h-3 border-l-2 border-red-900 mr-2" />{result.category}</a>
                     </div>
                   </div>
                 </div>

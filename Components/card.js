@@ -76,7 +76,7 @@ function Card() {
                 >
                   <div className="mr-2 inline-block">
                     <button>
-                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                      <a href='id' class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                         Learn More{" "}
                         <svg
                           className="w-4 h-4 ml-2 transition-transform duration-500 hover:translate-x-4"
