@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+import { useRouter } from 'next/router';
 import Nav from "../../Components/nav";
 import Footer from "@/Components/footer";
 import Heads from "@/Components/head";
@@ -18,7 +20,12 @@ export async function getServerSideProps(context) {
   };
 }
 
+
 function CategoryPage({ resultcategory, filteredData }) {
+  const router = useRouter();
+  const handleNewsClick = (resultId) => {
+    router.push(`/detail/${resultId}`);
+  };
   return (
     <div>
       <Heads />
@@ -98,7 +105,7 @@ function CategoryPage({ resultcategory, filteredData }) {
                         />
                       </a>
                       <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full bg-gradient-cover">
-                        <a href="#">
+                      <button onClick={() => handleNewsClick(result.id)} >
                           <h2
                             className="text-lg font-bold capitalize leading-tight text-white mb-1 overflow-hidden overflow-ellipsis"
                             style={{
@@ -109,7 +116,8 @@ function CategoryPage({ resultcategory, filteredData }) {
                           >
                             {result.headline}
                           </h2>
-                        </a>
+                       
+                        </button>
                         <div className="pt-1">
                           <div className="text-gray-100">
                             <div className="inline-block h-3 border-l-2 border-red-600 mr-2" />
@@ -216,7 +224,7 @@ function CategoryPage({ resultcategory, filteredData }) {
                               WebkitBoxOrient: "vertical",
                             }}
                           >
-                            <a href="#">{result.headline}</a>
+                            <button className="text-left" onClick={() => handleNewsClick(result.id)} ><a href="#">{result.headline}</a></button> 
                           </h3>
                           <p
                             className="hidden md:block text-gray-600 leading-tight mb-1 overflow-hidden overflow-ellipsis"
