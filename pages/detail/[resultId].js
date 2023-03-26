@@ -39,6 +39,9 @@ export default function Detail() {
                     <span className="inline-block h-5 border-l-3 border-red-600 " />{result.headline}
                   </h2>
                 </div>
+                <figure className="text-center mb-6">
+                        <img className="max-w-full h-auto" src={result.image} alt="Image description" />
+                      </figure>
                 <div className="flex flex-row flex-wrap -mx-3">
                   <div className="max-w-full w-full px-4">
                     {/* Post content */}
