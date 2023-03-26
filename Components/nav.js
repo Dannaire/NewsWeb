@@ -32,13 +32,6 @@ function Nav() {
               <li>
                 <button
                   className="nav"
-                  onClick={() => handleCategoryClick("business")}
-                >
-                  Business
-                </button>
-
-                <button
-                  className="nav"
                   onClick={() => handleCategoryClick("Business")}
                 >
                   Business
@@ -56,21 +49,6 @@ function Nav() {
                 <button
                   className="nav"
                   onClick={() => handleCategoryClick("health")}
-                >
-                  health
-                </button>
-              </li>
-              <li>
-                <button
-                  className="nav"
-                  onClick={() => handleCategoryClick("travel")}
-                >
-                  travel
-                </button>
-
-                <button
-                  className="nav"
-                  onClick={() => handleCategoryClick("Health")}
                 >
                   Health
                 </button>
