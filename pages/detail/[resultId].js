@@ -36,7 +36,7 @@ export default function Detail() {
               <div className="flex-shrink max-w-full w-full lg:w-2/3 overflow-hidden">
                 <div className="w-full py-3 mb-3">
                   <h2 className="text-gray-800 text-3xl font-bold">
-                    <span className="inline-block h-5 border-l-3 border-red-600 mr-2" />{result.headline}
+                    <span className="inline-block h-5 border-l-3 border-red-600 " />{result.headline}
                   </h2>
                 </div>
                 <div className="flex flex-row flex-wrap -mx-3">
