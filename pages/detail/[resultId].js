@@ -62,7 +62,7 @@ export default function Detail() {
                       <figure className="text-center mb-6">
                         <img
                           className="max-w-full h-auto"
-                          src={result.image}
+                          src={result.image2}
                           alt="Image description"
                         />
                         {/* <figcaption> Type here your description</figcaption> */}
@@ -249,9 +249,32 @@ export default function Detail() {
                         <p>{result.date}</p>
                       </div>
                     </div>
-                    {/* Comments */}
-                    <div id="comments" className="pt-16">
-                      {/*title*/}
+                   {/* Comments */}
+      <div id="comments" className="pt-16">
+        {/*title*/}
+        <h3 className="text-2xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">Comments</h3>
+        {/*comment list*/}
+        <ol className="mb-4">
+          <li className="py-2 mt-6">
+            <div className="pb-4 border-b border-gray-200 dark:border-gray-600 border-dashed">
+              <footer>
+                <img className="w-20 h-20 border border-gray-200 dark:border-gray-700 max-w-full float-left mr-4" src={result.image2} alt="avatar" />
+                <div>
+                  <p className="text-lg leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">{result.author}</p>
+                  <span className="md:float-right text-sm">
+                    <time >{result.date}</time>
+                  </span>
+                </div>
+              </footer>
+              <div>
+                <p>Berita ini sangat berwawasan</p>
+              </div>
+              <div>
+                <a className="text-red-700 hover:text-red-800" href="#comment-form">Reply</a>
+              </div>
+            </div>
+                </li>
+                </ol>
 
                       {/*comment form*/}
                       <div id="comment-form" className="mt-12">

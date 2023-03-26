@@ -1,7 +1,12 @@
 import { useState, useEffect } from "react";
+import { useRouter } from 'next/router';
 
 function Bloglink() {
   const [searchResults, setSearchResults] = useState([]);
+  const router = useRouter();
+  const handleNewsClick = (resultId) => {
+    router.push(`/detail/${resultId}`);
+  };
 
   const url = "/data/data.json";
 
@@ -59,7 +64,7 @@ function Bloglink() {
                     </a>
                     <div className="py-0 sm:py-3 pl-3 sm:pl-0">
                     <h3 className="text-lg font-bold leading-tight mb-2 overflow-hidden overflow-ellipsis"style={{ display: '-webkit-box', WebkitLineClamp: 1, WebkitBoxOrient: 'vertical' }}>
-                          <a href="#">{result.headline}</a>
+                    <button className="text-left " onClick={() => handleNewsClick(result.id)} >{result.headline}</button>
                         </h3>
                       <p className="hidden md:block text-gray-600 leading-tight mb-1 overflow-hidden overflow-ellipsis" style={{ display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical' }}>{result.desc}</p>
 
@@ -81,7 +86,7 @@ function Bloglink() {
                   {searchResults.slice(0, 4).map((result) => (
                   <ul key={result.id } className="post-number">
                     <li className="border-b border-gray-100 hover:bg-gray-50">
-                      <a className="text-lg font-bold px-6 py-3 flex flex-row items-center" href="#">{result.headline}</a>
+                    <button  className="text-lg text-left font-bold px-6 py-3 flex flex-row items-center" onClick={() => handleNewsClick(result.id)} > {result.headline}</button>
                     </li>
                   </ul>
                    ))}

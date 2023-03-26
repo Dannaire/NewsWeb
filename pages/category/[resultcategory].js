@@ -107,7 +107,7 @@ function CategoryPage({ resultcategory, filteredData }) {
                       <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full bg-gradient-cover">
                       <button onClick={() => handleNewsClick(result.id)} >
                           <h2
-                            className="text-lg font-bold capitalize leading-tight text-white mb-1 overflow-hidden overflow-ellipsis"
+                            className="text-lg text-left font-bold capitalize leading-tight text-white mb-1 overflow-hidden overflow-ellipsis"
                             style={{
                               display: "-webkit-box",
                               WebkitLineClamp: 2,
@@ -256,12 +256,7 @@ function CategoryPage({ resultcategory, filteredData }) {
                     {filteredData.slice(0, 4).map((result) => (
                       <ul key={result.id} className="post-number">
                         <li className="border-b border-gray-100 hover:bg-gray-50">
-                          <a
-                            className="text-lg font-bold px-6 py-3 flex flex-row items-center"
-                            href="#"
-                          >
-                            {result.headline}
-                          </a>
+                          <button  className="text-lg text-left font-bold px-6 py-3 flex flex-row items-center" onClick={() => handleNewsClick(result.id)} > {result.headline}</button>
                         </li>
                       </ul>
                     ))}
