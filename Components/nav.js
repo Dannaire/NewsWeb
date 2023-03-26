@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 
 function Nav() {
   const router = useRouter();
@@ -30,7 +30,6 @@ function Nav() {
       query: { filteredData: JSON.stringify(filteredData) },
     });
   };
-  
 
   return (
     <div>
@@ -49,50 +48,54 @@ function Nav() {
           <div className="flex items-center">
             <ul className="flex flex-row my-5 mr-6 space-x-8 text-sm font-medium  ">
               <li>
-                <Link
-                  href="/"
-                  className="nav"
-                  aria-current="page"
-                >
+                <Link href="/" className="nav" aria-current="page">
                   Home
                 </Link>
               </li>
               <li>
-              <button
-              className="nav"
-              onClick={() => handleCategoryClick("business")}
-            >Business</button>
+                <button
+                  className="nav"
+                  onClick={() => handleCategoryClick("business")}
+                >
+                  Business
+                </button>
               </li>
               <li>
-                
-              <button
-              className="nav"
-              onClick={() => handleCategoryClick("Sport")}
-            >Sport</button>
+                <button
+                  className="nav"
+                  onClick={() => handleCategoryClick("Sport")}
+                >
+                  Sport
+                </button>
               </li>
               <li>
-              <button
-              className="nav"
-              onClick={() => handleCategoryClick("health")}
-            >health</button>
+                <button
+                  className="nav"
+                  onClick={() => handleCategoryClick("health")}
+                >
+                  health
+                </button>
               </li>
               <li>
-              <button
-              className="nav"
-              onClick={() => handleCategoryClick("travel")}
-            >travel</button>
+                <button
+                  className="nav"
+                  onClick={() => handleCategoryClick("travel")}
+                >
+                  travel
+                </button>
               </li>
               <li>
-              <button
-              className="nav"
-              onClick={() => handleCategoryClick("World")}
-            >World</button>
-              </li> 
+                <button
+                  className="nav"
+                  onClick={() => handleCategoryClick("World")}
+                >
+                  World
+                </button>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
-
       /
     </div>
   );
