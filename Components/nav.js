@@ -30,19 +30,19 @@ function Nav() {
                 </Link>
               </li>
               <li>
-<<<<<<< HEAD
                 <button
                   className="nav"
                   onClick={() => handleCategoryClick("business")}
                 >
                   Business
                 </button>
-=======
-              <button
-              className="nav"
-              onClick={() => handleCategoryClick("Business")}
-            >Business</button>
->>>>>>> 8fc2b7c55cadb922f3956ada5e410b1b64e249a1
+
+                <button
+                  className="nav"
+                  onClick={() => handleCategoryClick("Business")}
+                >
+                  Business
+                </button>
               </li>
               <li>
                 <button
@@ -53,7 +53,6 @@ function Nav() {
                 </button>
               </li>
               <li>
-<<<<<<< HEAD
                 <button
                   className="nav"
                   onClick={() => handleCategoryClick("health")}
@@ -68,18 +67,21 @@ function Nav() {
                 >
                   travel
                 </button>
-=======
-              <button
-              className="nav"
-              onClick={() => handleCategoryClick("Health")}
-            >Health</button>
+
+                <button
+                  className="nav"
+                  onClick={() => handleCategoryClick("Health")}
+                >
+                  Health
+                </button>
               </li>
               <li>
-              <button
-              className="nav"
-              onClick={() => handleCategoryClick("Travel")}
-            >Travel</button>
->>>>>>> 8fc2b7c55cadb922f3956ada5e410b1b64e249a1
+                <button
+                  className="nav"
+                  onClick={() => handleCategoryClick("Travel")}
+                >
+                  Travel
+                </button>
               </li>
               <li>
                 <button
@@ -98,9 +100,4 @@ function Nav() {
   );
 }
 
-<<<<<<< HEAD
 export default Nav;
-=======
-
-export default Nav;
->>>>>>> 8fc2b7c55cadb922f3956ada5e410b1b64e249a1
