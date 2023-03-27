@@ -120,7 +120,7 @@ function Card() {
             </div>
           ))}
         </div>
-        <div className="flex justify-center mt-8">
+        <div className="flex flex-row justify-center mt-8 flex-wrap">
   {Array.from({ length: totalPages }, (_, i) => (
     <button
       key={i}
