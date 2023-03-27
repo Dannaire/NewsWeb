@@ -1,9 +1,14 @@
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import { Transition } from "@headlessui/react";
 import Link from 'next/link';
 
 function Blogsection() {
   const [searchResults, setSearchResults] = useState([]);
+  const router = useRouter();
+  const handleNewsClick = (resultId) => {
+    router.push(`/detail/${resultId}`);
+  };
 
   const url = "/data/data.json";
 
@@ -44,9 +49,10 @@ function Blogsection() {
             {searchResults.slice(0, 4).map((result) => (
                 <div key={result.id }>
                   <h3 className="text-blue-500 capitalize">{result.category}</h3>
-                  <a href="#" className="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500 dark:text-gray-400 ">
+                  <button onClick={() => handleNewsClick(result.id)} >
+                    <p className="block mt-2 text-left font-medium text-gray-700 hover:underline hover:text-gray-500 dark:text-gray-400 ">
                     {result.headline}
-                  </a>
+                  </p></button>
                   <hr className="my-6 border-gray-200 dark:border-gray-700" />
                 </div>
               ))}

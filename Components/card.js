@@ -39,24 +39,24 @@ function Card() {
               key={result.id}
               className="overflow-hidden transition-transform border-gray-900 duration-300 bg-white rounded hover:transform-none"
             >
-              <a href="/" aria-label="Article">
+              <button onClick={() => handleNewsClick(result.id)} >
                 <img
                   src={result.image}
                   className="object-cover w-full h-64 rounded"
                   alt=""
                 />
-              </a>
+              </button>
               <div className="py-5">
                 <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">
                   {result.date}
                 </p>
-                <a href="/">
+                <button onClick={() => handleNewsClick(result.id)} >
                   <a
                     aria-label="Article"
                     className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
                   >
                     <h3
-                      className="text-lg font-bold leading-tight mb-2 overflow-hidden overflow-ellipsis"
+                      className="text-lg font-bold leading-tight text-left mb-2 overflow-hidden overflow-ellipsis"
                       style={{
                         display: "-webkit-box",
                         WebkitLineClamp: 1,
@@ -66,7 +66,7 @@ function Card() {
                       <a href="#">{result.headline}</a>
                     </h3>
                   </a>
-                </a>
+                  </button>
                 <p
                   className="mb-4 text-gray-700 overflow-hidden overflow-ellipsis"
                   style={{

@@ -12,6 +12,7 @@
         "author": "Dian Putri",
         "date": "2022-03-21",
         "image": "/img/astra.jpg",
+        "image2": "/img/astra.jpeg",
         "category": "business",
         "hero": true
     },
@@ -29,6 +30,7 @@
         "author": "Aisyah Syakira",
         "date": "2022-03-10",
         "image": "/img/jepang.jpg",
+        "image2": "/img/mobil.jpg",
         "category": "business",
         "hero": false
     },
@@ -46,6 +48,7 @@
         "author": "Dian Putri",
         "date": "2022-02-20",
         "image": "/img/china.jpg",
+        "image2": "/img/batu.jpg",
         "category": "business",
         "hero": false
     },
@@ -63,6 +66,7 @@
         "author": "Mike Wheeler",
         "date": "2022-01-18",
         "image": "/img/bank.jpg",
+        "image2": "/img/kartu.png",
         "category": "business",
         "hero": false
     },
@@ -80,13 +84,14 @@
         "author": "Aisyah Syakira",
         "date": "2022-02-20",
         "image": "/img/semen.jpg",
+        "image2": "/img/smgr.jpeg",
         "category": "business",
         "hero": false
     },
     {
         "id": 6,
         "headline": "Kiprah Bank Digital Afiliasi Anthoni Salim di Filipina",
-        "subheading": "",
+        "subheading": "Kiprah Bank Digital Afiliasi Anthoni Salim di Filipina",
         "desc": "Angan midas Anthoni Salim boleh jadi tak begitu kelihatan dalam bisnis bank digital di Indonesia. Sepak terjang PT Allo Bank Indonesia Tbk (BBHI), bank digital yang disuntik sang konglomerat pada awal 2022, relatif kalah berkilau dari agresivitas Seabank, Bank Jago, hingga Bank Neo",
         "conten": [
             " Grup Salim, salah satu konglomerasi terkaya dan tertua di Indonesia yang didirikan oleh mendiang Sudono Salim, terus mengembangkan gurita bisnisnya di Tanah Air. Terbaru, konglomerasi yang menguasai Grup Indofood ini mencoba menunggangi gelombang tech boom dengan memasuk ekosistem teknologi digital.",
@@ -97,6 +102,7 @@
         "author": "Dian Putri",
         "date": "2022-01-17",
         "image": "/img/filip.jpg",
+        "image2": "/img/pilip.jpg",
         "category": "business",
         "hero": false
     },
@@ -114,6 +120,7 @@
         "author": "Jonathan",
         "date": "2022-08-26",
         "image": "/img/traktor.jpg",
+        "image2": "/img/saham/jpeg",
         "category": "business",
         "hero": false
     },
@@ -131,6 +138,7 @@
         "author": "Nancy",
         "date": "2022-03-05",
         "image": "/img/pangan.jpg",
+        "image2": "/img/harga.jpg",
         "category": "business",
         "hero": false
     },
@@ -148,6 +156,7 @@
         "author": "Tiffany",
         "date": "2022-03-23",
         "image": "/img/depo.jpg",
+        "image2": "/img/perta.jpeg",
         "category": "business",
         "hero": false
     },
@@ -165,6 +174,7 @@
         "author": "Doni Syahputra",
         "date": "2022-01-17",
         "image": "/img/nikel.jpg",
+        "image2": "/img/nikel1.jpeg",
         "category": "business",
         "hero": false
     },
@@ -182,6 +192,7 @@
         "author": "Nancy Daily",
         "date": "2023-03-12",
         "image": "/img/chico.jpeg",
+        "image2": "/img/chico1.jpg",
         "category": "sport",
         "hero": true
     },
@@ -199,6 +210,7 @@
         "author": "Tiffany",
         "date": "2023-03-10",
         "image": "/img/erick.jpg",
+        "image2": "/img/erick1.jpeg",
         "category": "sport",
         "hero": false
     },
@@ -216,6 +228,7 @@
         "author": "Jonathan",
         "date": "2023-03-12",
         "image": "/img/league.jpg",
+        "image2": "/img/pl.png",
         "category": "sport",
         "hero": false
     },
@@ -233,6 +246,7 @@
         "author": "Aisyah Syakira",
         "date": "2023-03-10",
         "image": "/img/inggris.jpeg",
+        "image2": "/img/bola.jpg",
         "category": "sport",
         "hero": false
     },
@@ -249,6 +263,7 @@
         "author": "Doni Syahputra",
         "date": "2023-03-20",
         "image": "/img/timnas.jpeg",
+        "image2": "/img/tim.jpg",
         "category": "sport",
         "hero": false
     },
@@ -266,6 +281,7 @@
         "author": "Tiffany",
         "date": "2023-03-21",
         "image": "/img/justin.jpeg",
+        "image2": "/img/justin1.jpg",
         "category": "sport",
         "hero": false
     },
@@ -283,6 +299,7 @@
         "author": "Dian Putri",
         "date": "2023-03-18",
         "image": "/img/pitha.jpeg",
+        "image2": "/img/pitha1.jpg",
         "category": "sport",
         "hero": false
     },
@@ -300,6 +317,7 @@
         "author": "Mike Wheeler",
         "date": "2023-03-20",
         "image": "/img/wakil.jpg",
+        "image2": "/img/wakil2.jpeg",
         "category": "sport",
         "hero": false
     },
@@ -317,6 +335,7 @@
         "author": "Doni Syahputra",
         "date": "2023-03-18",
         "image": "/img/lolos.jpeg",
+        "image2": "/img/pitha1.jpg",
         "category": "sport",
         "hero": false
     },
@@ -334,6 +353,7 @@
         "author": "Tiffany",
         "date": "2023-03-20",
         "image": "/img/swiss.jpeg",
+        "image2": "/img/indo.jpg",
         "category": "sport",
         "hero": false
     },
@@ -351,6 +371,7 @@
         "author": "Dian Putri",
         "date": "2023-01-28",
         "image": "/img/meat.jpg",
+        "image2": "/img/menu.jpg",
         "category": "health",
         "hero": true
     },
@@ -368,6 +389,7 @@
         "author": "Tiffany",
         "date": "2022-03-04",
         "image": "/img/diabetes.jpg",
+        "image2": "/img/diabetes2.jpg",
         "category": "health",
         "hero": false
     },
@@ -385,6 +407,7 @@
         "author": "Jonathan",
         "date": "2022-05-17",
         "image": "/img/skincare.jpg",
+        "image2": "/img/skin.jpg",
         "category": "health",
         "hero": false
     },
@@ -402,6 +425,7 @@
         "author": "Shintaloka Pradita Sicca",
         "date": "2022-05-17",
         "image": "/img/teh.jpg",
+        "image2": "/img/madu.jpeg",
         "category": "health",
         "hero": false
     },
@@ -419,6 +443,7 @@
         "author": "Aisyah Syakira",
         "date": "2022-05-17",
         "image": "/img/mental.jpg",
+        "image2": "/img/lelah.png",
         "category": "health",
         "hero": false
     },
@@ -436,6 +461,7 @@
         "author": "Dian Putri",
         "date": "2022-05-17",
         "image": "/img/burnout.jpeg",
+        "image2": "/img/stress.jpg",
         "category": "health",
         "hero": false
     },
@@ -453,6 +479,7 @@
         "author": "Doni Syahputra",
         "date": "2022-05-17",
         "image": "/img/gula.jpg",
+        "image2": "/img/gula1.jpeg",
         "category": "health",
         "hero": false
     },
@@ -470,6 +497,7 @@
         "author": "Mike Wheeler",
         "date": "2022-05-17",
         "image": "/img/musik.jpg",
+        "image2": "/img/music.jpg",
         "category": "health",
         "hero": false
     },
@@ -487,6 +515,7 @@
         "author": "Mike Wheeler",
         "date": "2022-05-17",
         "image": "/img/gulaDarah.jpg",
+        "image2": "/img/guldar.jpg",
         "category": "health",
         "hero": false
     }, {
@@ -503,6 +532,7 @@
         "author": "Jonathan",
         "date": "2022-05-17",
         "image": "/img/mulut.jpg",
+        "image2": "/img/bau.jpg",
         "category": "health",
         "hero": false
     },
@@ -520,6 +550,7 @@
         "author": "Jonathan",
         "date": "2022-05-17",
         "image": "/img/mudik.jpg",
+        "image2": "/img/tiket.jpg",
         "category": "travel",
         "hero": true
     },
@@ -537,6 +568,7 @@
         "author": "Dian Putri",
         "date": "2022-05-17",
         "image": "/img/mudik.jpg",
+        "image2": "/img/tiket.jpg",
         "category": "travel",
         "hero": false
     },
@@ -554,6 +586,7 @@
         "author": "Nancy",
         "date": "2022-05-17",
         "image": "/img/pemkot.jpeg",
+        "image2": "/img/pari.jpg",
         "category": "travel",
         "hero": false
     },
@@ -571,6 +604,7 @@
         "author": "Tiara Dina",
         "date": "2022-05-17",
         "image": "/img/taiwan.jpeg",
+        "image2": "/img/taiwan1.jpg",
         "category": "travel",
         "hero": false
     },
@@ -588,6 +622,7 @@
         "author": "Tiara Dina",
         "date": "2022-05-17",
         "image": "/img/pariwisata.jpg",
+        "image2": "/img/bromo.jpg",
         "category": "travel",
         "hero": false
     },
@@ -605,6 +640,7 @@
         "author": "Tiffany",
         "date": "2022-05-17",
         "image": "/img/bali.jpeg",
+        "image2": "/img/bali1.jpg",
         "category": "travel",
         "hero": false
     },
@@ -622,6 +658,7 @@
         "author": "Aisyah Syakira",
         "date": "2022-05-17",
         "image": "/img/garut.jpeg",
+        "image2": "/img/desa.jpg",
         "category": "travel",
         "hero": false
     },
@@ -638,6 +675,7 @@
         "author": "Mike Wheeler",
         "date": "2022-05-17",
         "image": "/img/hiu.jpg",
+        "image2": "/img/wisata.jpeg",
         "category": "travel",
         "hero": false
     },
@@ -654,6 +692,7 @@
         "author": "Jonathan",
         "date": "2022-05-17",
         "image": "/img/motor.jpg",
+        "image2": "/img/desti.jpg",
         "category": "travel",
         "hero": false
     },
@@ -671,6 +710,7 @@
         "author": "Dian Putri",
         "date": "2022-05-17",
         "image": "/img/kapal.jpg",
+        "image2": "/img/pesiar.jpeg",
         "category": "travel",
         "hero": false
     },
@@ -687,12 +727,13 @@
         "author": "Aisyah Syakira",
         "date": "2022-05-18",
         "image": "/img/aqsa.jpeg",
+        "image2": "/img/palestina1.jpeg",
         "category": "world",
         "hero": true
     },
     {
         "id": 42,
-        "headline": "Israel Batasi Palestin ke Masjid Al Aqsa",
+        "headline": "Israel Batasi Palestina ke Masjid Al Aqsa",
         "subheading": "Israel membatasi akses warga Palestina ke Masjid Al-Aqsa selama Ramadan dan memerlukan izin keamanan untuk mengunjungi tempat suci dan keluarga di Israel.",
         "desc": "Israel mengumumkan berbagai aturan untuk warga Palestina selama bulan Ramadan, salah satunya pembatasan mengunjungi Masjid Al-Aqsa. ",
         "conten": [
@@ -703,6 +744,7 @@
         "author": "Tia Kiana",
         "date": "2022-06-17",
         "image": "/img/palestina.jpeg",
+        "image2": "/img/batas.jpeg",
         "category": "world",
         "hero": false
     },
@@ -719,6 +761,7 @@
         "author": "Dian Hana",
         "date": "2022-09-01",
         "image": "/img/badai.jpeg",
+        "image2": "/img/pasir.jpg",
         "category": "world",
         "hero": false
     },
@@ -734,7 +777,8 @@
         ],
         "author": "Nafa Putri",
         "date": "2022-09-01",
-        "image": "/img/beijing.jpg",
+        "image": "/img/as.jpg",
+        "image2": "/img/as.jpg",
         "category": "world",
         "hero": false
     },
@@ -751,6 +795,7 @@
         "author": "Tendi Mahadi",
         "date": "2022-06-17",
         "image": "/img/kerja.jpg",
+        "image2": "/img/indeed.jpg",
         "category": "world",
         "hero": false
     },
@@ -767,6 +812,7 @@
         "author": "Prihastomo Wahyu Widodo",
         "date": "2022-06-17",
         "image": "/img/ukraina.jpeg",
+        "image2": "/img/",
         "category": "world",
         "hero": false
     },
@@ -784,6 +830,7 @@
         "author": "Adrianus Octaviano",
         "date": "2022-06-15",
         "image": "/img/kredivo.jpg",
+        "image2": "/img/kredivo1.jpg",
         "category": "world",
         "hero": false
     },
@@ -801,6 +848,7 @@
         "author": "Prihastomo Wahyu Widodo",
         "date": "2022-06-10",
         "image": "/img/bard.jpg",
+        "image2": "/img/google.jpg",
         "category": "world",
         "hero": false
     },
@@ -817,6 +865,7 @@
         "author": "Suli Hanna",
         "date": "2022-04-17",
         "image": "/img/landon.jpg",
+        "image2": "/img/london.jpeg",
         "category": "world",
         "hero": false
     },
@@ -833,6 +882,7 @@
         "author": "Tiffany",
         "date": "2022-10-11",
         "image": "/img/liga.png",
+        "image2": "/img/bridge.jpg",
         "category": "world"
     }
 
