@@ -1,12 +1,25 @@
 import { useState, useEffect } from "react";
 import { useRouter } from 'next/router';
-
 function Card() {
   const [searchResults, setSearchResults] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const pageSize = 6;
   const router = useRouter();
+
   const handleNewsClick = (resultId) => {
     router.push(`/detail/${resultId}`);
   };
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
+
+  const paginatedResults = searchResults.slice(
+    (currentPage - 1) * pageSize,
+    currentPage * pageSize
+  );
+
+  const totalPages = Math.ceil(searchResults.length / pageSize);
 
   const url = "/data/data.json";
 
@@ -34,7 +47,7 @@ function Card() {
           </h2>
         </div>
         <div className="grid gap-5 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
-          {searchResults.map((result) => (
+          {paginatedResults.map((result) => (
             <div
               key={result.id}
               className="overflow-hidden transition-transform border-gray-900 duration-300 bg-white rounded hover:transform-none"
@@ -100,12 +113,26 @@ function Card() {
                       </button>
                     </div>
                     {/* <p className="font-semibold">7.4K</p> */}
-                 
+                   
                 </div>
+                
               </div>
             </div>
           ))}
         </div>
+        <div className="flex flex-row justify-center mt-8 flex-wrap">
+  {Array.from({ length: totalPages }, (_, i) => (
+    <button
+      key={i}
+      onClick={() => handlePageChange(i + 1)}
+      className={`mx-1 font-bold py-2 px-4 rounded ${
+        currentPage === i + 1 ? 'bg-gray-800 text-white' : 'bg-gray-300 text-gray-800'
+      }`}
+    >
+      {i + 1}
+    </button>
+  ))}
+</div>
       </div>
     </>
   );
