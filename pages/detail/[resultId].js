@@ -2,6 +2,8 @@ import Nav from "@/Components/nav";
 import results from "../../public/data/data.json";
 import { useRouter } from "next/router";
 import Heads from "@/Components/head";
+import { CgProfile } from "react-icons/cg";
+import NotFound from "../404";
 
 export default function Detail() {
   const router = useRouter();
@@ -10,7 +12,7 @@ export default function Detail() {
   const result = results.find((result) => result.id === parseInt(resultId));
 
   if (!result) {
-    return <div>news not found</div>;
+    return <NotFound />;
   }
   return (
     <>
@@ -38,7 +40,7 @@ export default function Detail() {
               {/* Left */}
               <div className="flex-shrink max-w-full w-full lg:w-2/3 overflow-hidden">
                 <div className="w-full py-3 mb-3">
-                  <h2 className="text-gray-800 text-3xl font-bold">
+                  <h2 className="text-gray-800 text-3xl font-bold dark:text-gray-100">
                     <span className="inline-block h-5 border-l-3 border-red-600 " />
                     {result.headline}
                   </h2>
@@ -55,7 +57,7 @@ export default function Detail() {
                     {/* Post content */}
                     <div className="leading-relaxed pb-4">
                       <p className="mb-5">{result.desc}</p>
-                      <h2 className="text-xl leading-normal mb-2 font-semibold text-gray-800">
+                      <h2 className="text-xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">
                         {result.subheading}
                       </h2>
                       <p className="mb-5">{result.desc}</p>
@@ -67,11 +69,13 @@ export default function Detail() {
                         />
                         {/* <figcaption> Type here your description</figcaption> */}
                       </figure>
-                      <h3 className="text-2xl leading-normal mb-2 font-semibold text-gray-800 ">
+                      <h3 className="text-2xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">
                         Berita Hari Ini
                       </h3>
                       {result.conten.map((paragraph, index) => (
-                        <p className="mb-5 indent-16" key={index}>{paragraph}</p>
+                        <p className="mb-5 indent-5" key={index}>
+                          {paragraph}
+                        </p>
                       ))}
                       <blockquote className="relative p-4 border-l-4 border-red-700 bg-gray-100 dark:bg-gray-900 dark:bg-opacity-40 mb-4 text-xl">
                         <span className="absolute opacity-80 w-8 h-8">
@@ -235,8 +239,8 @@ export default function Detail() {
                       <div className="flex-shrink max-w-full px-4 w-1/3 sm:w-1/4 md:w-1/6">
                         <a href="#">
                           <img
-                            className="rounded-full border max-w-full h-auto dark:border-gray-700"
-                            src={result.image}
+                            className="rounded-full w-16 border h-auto dark:border-gray-700"
+                            src="/img/profile.png"
                             alt="author"
                           />
                         </a>
