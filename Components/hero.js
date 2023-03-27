@@ -35,7 +35,7 @@ function hero() {
   };
 
   return (
-    <section className="content mt-6 bg-white dark:bg-gray-900 z-0">
+    <section className="content mt-6 bg-white dark:bg-gray-900 w-11/12 mx-auto z-0">
       <div className="text-white text-3xl font-bold py-6 pl-4">
         Now Happening
       </div>
