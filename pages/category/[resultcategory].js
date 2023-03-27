@@ -55,13 +55,13 @@ function CategoryPage({ resultcategory, filteredData }) {
                 className="flex-shrink max-w-full w-full lg:w-1/2 pb-1 lg:pb-0 lg:pr-1"
               >
                 <div className="relative hover-img h-96 overflow-hidden">
-                  <a href="#">
+                <button className="w-full" onClick={() => handleNewsClick(result.id)} >
                     <img
                       className="max-w-full w-full mx-auto h-auto"
                       src={result.image}
                       alt="Image description"
                     />
-                  </a>
+                  </button>
                   <div className="absolute px-5 pt-8 pb-5 bottom-0 w-full bg-gradient-cover">
                     <a href="#">
                       <h2 className="text-3xl font-bold capitalize text-white mb-3 overflow-hidden overflow-ellipsis">
@@ -98,12 +98,12 @@ function CategoryPage({ resultcategory, filteredData }) {
                     className="flex-shrink max-w-full w-full sm:w-1/2 "
                   >
                     <div className="relative hover-img max-h-48 overflow-hidden m-0.5">
-                      <a href="#">
+                    <button className="w-full" onClick={() => handleNewsClick(result.id)} >
                         <img
                           className="max-w-full w-full mx-auto h-48 max-h-auto"
                           src={result.image}
                         />
-                      </a>
+                      </button>
                       <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full bg-gradient-cover">
                       <button onClick={() => handleNewsClick(result.id)} >
                           <h2
