@@ -2,8 +2,8 @@ import Nav from "@/Components/nav";
 import results from "../../public/data/data.json";
 import { useRouter } from "next/router";
 import Heads from "@/Components/head";
-import { CgProfile } from "react-icons/cg";
 import NotFound from "../404";
+import Footer from "@/Components/footer";
 
 export default function Detail() {
   const router = useRouter();
@@ -425,6 +425,7 @@ export default function Detail() {
         </div>
       </main>
       {/* end main */}
+      <Footer />
     </>
   );
 }
