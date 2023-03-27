@@ -206,10 +206,10 @@ function CategoryPage({ resultcategory, filteredData }) {
                       key={result.id}
                       className="flex-shrink max-w-full w-full sm:w-1/3 px-3 pb-3 pt-3 sm:pt-0 border-b-2 sm:border-b-0 border-dotted border-gray-100"
                     >
-                      <div className="flex flex-row sm:block hover-img">
+                      <div className="flex-1 flex-row sm:block hover-img">
                         <a href>
                           <img
-                            className="object-cover w-full h-52 rounded"
+                            className="object-cover w-full h-52 rounded "
                             src={result.image}
                             alt="alt title"
                           />
