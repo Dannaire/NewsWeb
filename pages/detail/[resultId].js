@@ -365,7 +365,7 @@ export default function Detail() {
                 <div className="w-full bg-white">
                   <div className="mb-6">
                     <div className="p-4 bg-gray-100">
-                      <h2 className="text-lg font-bold">Most Popular</h2>
+                      <h2 className="text-lg font-bold">Advertisement</h2>
                     </div>
                     <ul className="post-number">
                       <li className="border-b border-gray-100 hover:bg-gray-50">

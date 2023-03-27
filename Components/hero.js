@@ -40,13 +40,17 @@ function hero() {
   };
 
   return (
+<<<<<<< HEAD
     <section className="content mt-8 bg-white dark:bg-gray-900 z-0">
+=======
+    <section className="content mt-6 bg-white dark:bg-gray-900 w-11/12 mx-auto z-0">
+>>>>>>> b34762b0d09651cdd67f7512057abcac05561e67
       <div className="text-white text-3xl font-bold py-6 pl-4">
         Now Happening
       </div>
       <Slider {...setting} dotsClass="slick-dots">
         {display.map((result) => (
-          <div key={result.id} className="relative scale-95  ">
+          <div key={result.id} className="relative  ">
             <img
               src={result.image}
               alt={result.title}
