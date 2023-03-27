@@ -11,7 +11,7 @@ export async function getServerSideProps(context) {
 
   // Filter the data based on the category name
   const filteredData = data.filter((item) => item.category === category);
-  
+
   if (filteredData.length === 0) {
     return {
       notFound: true,
@@ -54,12 +54,14 @@ function CategoryPage({ resultcategory, filteredData }) {
                 className="flex-shrink max-w-full w-full lg:w-1/2 pb-1 lg:pb-0 lg:pr-1"
               >
                 <div className="relative hover-img h-96 overflow-hidden">
-                  <a href="#">
-                    <img
-                      className="max-w-full w-full mx-auto h-auto"
-                      src={result.image}
-                      alt="Image description"
-                    />
+                  <a>
+                    <button onClick={() => handleNewsClick(result.id)}>
+                      <img
+                        className="max-w-full w-full mx-auto h-auto"
+                        src={result.image}
+                        alt="Image description"
+                      />
+                    </button>
                   </a>
                   <div className="absolute px-5 pt-8 pb-5 bottom-0 w-full bg-gradient-cover">
                     <a href="#">
@@ -98,24 +100,24 @@ function CategoryPage({ resultcategory, filteredData }) {
                   >
                     <div className="relative hover-img max-h-48 overflow-hidden m-0.5">
                       <a href="#">
-                        <img
-                          className="max-w-full w-full mx-auto h-48 max-h-auto"
-                          src={result.image}
-                        />
+                        <button onClick={() => handleNewsClick(result.id)}>
+                          <img
+                            className="max-w-full w-full mx-auto h-48 max-h-auto"
+                            src={result.image}
+                          />
+                        </button>
                       </a>
                       <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full bg-gradient-cover">
-                        <button onClick={() => handleNewsClick(result.id)}>
-                          <h2
-                            className="text-lg font-bold capitalize leading-tight text-white mb-1 overflow-hidden overflow-ellipsis"
-                            style={{
-                              display: "-webkit-box",
-                              WebkitLineClamp: 2,
-                              WebkitBoxOrient: "vertical",
-                            }}
-                          >
-                            {result.headline}
-                          </h2>
-                        </button>
+                        <h2
+                          className="text-lg font-bold capitalize leading-tight text-white mb-1 overflow-hidden overflow-ellipsis"
+                          style={{
+                            display: "-webkit-box",
+                            WebkitLineClamp: 2,
+                            WebkitBoxOrient: "vertical",
+                          }}
+                        >
+                          {result.headline}
+                        </h2>
                         <div className="pt-1">
                           <div className="text-gray-100">
                             <div className="inline-block h-3 border-l-2 border-red-600 mr-2" />
@@ -258,12 +260,14 @@ function CategoryPage({ resultcategory, filteredData }) {
                     {filteredData.slice(0, 4).map((result) => (
                       <ul key={result.id} className="post-number">
                         <li className="border-b border-gray-100 hover:bg-gray-50">
+                        <button onClick={() => handleNewsClick(result.id)}>
                           <a
-                            className="text-lg font-bold px-6 py-3 flex flex-row items-center"
+                            className="text-left text-lg font-bold px-6 py-3 flex flex-row items-center"
                             href="#"
-                          >
+                            >
                             {result.headline}
                           </a>
+                          </button>
                         </li>
                       </ul>
                     ))}
