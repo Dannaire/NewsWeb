@@ -15,6 +15,9 @@ Vercel: https://daily-news-actual.vercel.app/
 ## Technology
 
 * [![JavaScript][js]][js-url]
+* ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white)
+* ![Nextjs](https://img.shields.io/badge/-Next-black?style=flat-square&logo=next.js&logoColor=white)
+* ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
 
 ## Pages
 
