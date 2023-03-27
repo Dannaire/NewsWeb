@@ -42,7 +42,7 @@ function hero() {
       <Slider {...setting}  dotsClass="slick-dots">
 
         {display.map((result) => (
-          <div key={result.id} className="relative scale-95  ">
+          <div key={result.id} className="relative  ">
             <img
               src={result.image}
               alt={result.title}
