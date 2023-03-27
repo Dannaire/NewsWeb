@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 import Nav from "../../Components/nav";
 import Footer from "@/Components/footer";
 import Heads from "@/Components/head";
-import data from '../../public/data/data.json'
+import data from "../../public/data/data.json";
 
 export async function getServerSideProps(context) {
   const { resultcategory } = context.query;
@@ -11,6 +11,12 @@ export async function getServerSideProps(context) {
 
   // Filter the data based on the category name
   const filteredData = data.filter((item) => item.category === category);
+  
+  if (filteredData.length === 0) {
+    return {
+      notFound: true,
+    };
+  }
 
   return {
     props: {
@@ -20,23 +26,16 @@ export async function getServerSideProps(context) {
   };
 }
 
-
 function CategoryPage({ resultcategory, filteredData }) {
   const router = useRouter();
   const handleNewsClick = (resultId) => {
     router.push(`/detail/${resultId}`);
   };
+
   return (
     <div>
       <Heads />
       <Nav />
-      {/* <h1>Category: {resultcategory}</h1>
-      {filteredData.map((result) => (
-        <div key={result.id}>
-          <h2>{result.headline}</h2>
-          <p>{result.content}</p>
-        </div>
-      ))} */}
       <div className="bg-white py-6 mt-12">
         {/* {searchResults.slice(0, 1).map((result) => ( */}
         <div className="xl:container mx-auto px-3 sm:px-8 xl:px-8">
@@ -105,9 +104,9 @@ function CategoryPage({ resultcategory, filteredData }) {
                         />
                       </a>
                       <div className="absolute px-4 pt-7 pb-4 bottom-0 w-full bg-gradient-cover">
-                      <button onClick={() => handleNewsClick(result.id)} >
+                        <button onClick={() => handleNewsClick(result.id)}>
                           <h2
-                            className="text-lg text-left font-bold capitalize leading-tight text-white mb-1 overflow-hidden overflow-ellipsis"
+                            className="text-lg font-bold capitalize leading-tight text-white mb-1 overflow-hidden overflow-ellipsis"
                             style={{
                               display: "-webkit-box",
                               WebkitLineClamp: 2,
@@ -116,7 +115,6 @@ function CategoryPage({ resultcategory, filteredData }) {
                           >
                             {result.headline}
                           </h2>
-                       
                         </button>
                         <div className="pt-1">
                           <div className="text-gray-100">
@@ -151,7 +149,6 @@ function CategoryPage({ resultcategory, filteredData }) {
         </div>
         {/* block news */}
         <div className="bg-gray-50 py-6">
-          
           <div className="xl:container mx-auto px-3 sm:px-8 xl:px-8">
             <div className="flex flex-row flex-wrap">
               {/* Left */}
@@ -224,7 +221,12 @@ function CategoryPage({ resultcategory, filteredData }) {
                               WebkitBoxOrient: "vertical",
                             }}
                           >
-                            <button className="text-left" onClick={() => handleNewsClick(result.id)} ><a href="#">{result.headline}</a></button> 
+                            <button
+                              className="text-left"
+                              onClick={() => handleNewsClick(result.id)}
+                            >
+                              <a href="#">{result.headline}</a>
+                            </button>
                           </h3>
                           <p
                             className="hidden md:block text-gray-600 leading-tight mb-1 overflow-hidden overflow-ellipsis"
@@ -256,7 +258,12 @@ function CategoryPage({ resultcategory, filteredData }) {
                     {filteredData.slice(0, 4).map((result) => (
                       <ul key={result.id} className="post-number">
                         <li className="border-b border-gray-100 hover:bg-gray-50">
-                          <button  className="text-lg text-left font-bold px-6 py-3 flex flex-row items-center" onClick={() => handleNewsClick(result.id)} > {result.headline}</button>
+                          <a
+                            className="text-lg font-bold px-6 py-3 flex flex-row items-center"
+                            href="#"
+                          >
+                            {result.headline}
+                          </a>
                         </li>
                       </ul>
                     ))}

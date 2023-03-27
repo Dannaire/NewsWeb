@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
+import { useRouter } from "next/router";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -28,19 +29,22 @@ function hero() {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 5000,
-    arrows: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
 
+  const router = useRouter();
+  const handleNewsClick = (resultId) => {
+    router.push(`/detail/${resultId}`);
+  };
+
   return (
-    <section className="content mt-6 bg-white dark:bg-gray-900 z-0">
+    <section className="content mt-8 bg-white dark:bg-gray-900 z-0">
       <div className="text-white text-3xl font-bold py-6 pl-4">
         Now Happening
       </div>
-      <Slider {...setting}  dotsClass="slick-dots">
-
+      <Slider {...setting} dotsClass="slick-dots">
         {display.map((result) => (
           <div key={result.id} className="relative scale-95  ">
             <img
@@ -48,7 +52,10 @@ function hero() {
               alt={result.title}
               className="object-cover w-screen h-[550px] aspect-video "
             />
-            <div className="absolute bottom-0 left-0 p-4 bg-gray-900 bg-opacity-60 text-white max-lg:w-full">
+            <button
+              className="absolute bottom-0 left-0 p-4 bg-gray-900 bg-opacity-60 text-white max-lg:w-full"
+              onClick={() => handleNewsClick(result.id)}
+            >
               <div className="text-center text-lg font-[550]">
                 {result.headline}
               </div>
@@ -69,7 +76,7 @@ function hero() {
                   </svg>
                 </a>
               </button>
-            </div>
+            </button>
           </div>
         ))}
       </Slider>
