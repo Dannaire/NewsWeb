@@ -8,6 +8,7 @@ function hero() {
   const [searchResults, setSearchResults] = useState([]);
 
   const url = "/data/data.json";
+  
 
   useEffect(() => {
     async function fetchData() {
@@ -79,8 +80,14 @@ function hero() {
             </div>
           ))}
         </Slider>
-      </section>
+      </section> \
+
     </section>
+
+
+
+
+
   );
 }
 
