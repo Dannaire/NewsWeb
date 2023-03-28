@@ -38,11 +38,11 @@ function Card() {
 
   return (
     <>
-      <div className="bg-gray-900 w-full h-12"></div>
+      <div className="bg-white dark:bg-gray-900 w-full h-12"></div>
       <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4">
         <div className="w-full py-3">
           <h2 className="text-gray-800 text-2xl font-bold text-center">
-            <div className="mt-4 mb-4 pt-4 pb-4 dark:bg-gray-900 text-white">
+            <div className="mt-4 mb-4 pt-4 pb-4 dark:bg-gray-900  dark:text-white text-gray-900">
               <span className="inline-block h-5 border-l-3 border-red-600 mr-2">
                 Featured News
               </span>
