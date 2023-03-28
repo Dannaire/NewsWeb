@@ -41,8 +41,8 @@ function hero() {
   };
 
   return (
-    <section className="content mx-auto mt-8 bg-white dark:bg-gray-900 w-11/12 z-0 herowrap">
-     
+    <section className="content mx auto mt-8 bg-white dark:bg-gray-900 1-11/12 z-0">
+      <section className="content mt-6 bg-white dark:bg-gray-900 w-11/12 mx-auto z-0">
         <div className="text-white text-3xl font-bold py-6 pl-4"></div>
         <Slider {...setting} dotsClass="slick-dots">
           {display.map((result) => (
@@ -50,7 +50,7 @@ function hero() {
               <img
                 src={result.image}
                 alt={result.title}
-                className="object-cover w-screen h-[550px] aspect-video imgcard "
+                className="object-cover w-screen h-[550px] aspect-video "
               />
               <button
                 className="absolute bottom-0 left-0 p-4 bg-gray-900 bg-opacity-60 text-white max-lg:w-full"
@@ -82,7 +82,7 @@ function hero() {
         </Slider>
       </section> 
 
-
+    </section>
 
 
 
