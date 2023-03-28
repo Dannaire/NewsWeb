@@ -25,6 +25,11 @@
 .nav {
   color: white;
 }
+@media (min-width: 320px) and (max-width: 768px) {
+  .imgcard {
+    max-height: 12rem;
+  }
+}
 .slick-dots li button:before {
   @apply dark:!text-white;
 }

@@ -58,7 +58,7 @@ function Card() {
               <button onClick={() => handleNewsClick(result.id)}>
                 <img
                   src={result.image}
-                  className="object-cover w-full h-64 rounded min-[320px]:max-h-48"
+                  className="object-cover w-full h-64 rounded imgcard"
                   alt=""
                 />
               </button>
