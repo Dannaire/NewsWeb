@@ -27,14 +27,13 @@ Vercel: https://daily-news-actual.vercel.app/
 
 
 ## Home
-
+![Screenshot (1104)](https://user-images.githubusercontent.com/99931023/228116492-414978bc-d520-4a12-8041-9650c3536356.png)
 
 ## Detail
-
+![Screenshot (1105)](https://user-images.githubusercontent.com/99931023/228116504-dcbb07f2-3a38-4568-bc39-7557fb055de6.png)
 
 ## Category
-
-
+![Screenshot (1106)](https://user-images.githubusercontent.com/99931023/228116515-12cdac5c-3b79-4377-9fda-22fed21e1e39.png)
 
 
 ## Contributor
