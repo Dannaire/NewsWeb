@@ -61,5 +61,5 @@
 
 }
 .slick-dots li button:before {
-  @apply dark:!text-white;
+  @apply !text-[#000000] dark:!text-white;
 }
