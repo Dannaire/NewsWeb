@@ -259,7 +259,7 @@ function CategoryPage({ resultcategory, filteredData }) {
                     </div>
                     {filteredData.slice(0, 4).map((result) => (
                       <ul key={result.id} className="post-number">
-                        <li className="border-b border-gray-100 hover:bg-gray-50">
+                        <li className="border-b border-gray-100 hover:bg-gray-100 transition-color duration-300">
                         <button onClick={() => handleNewsClick(result.id)}>
                           <a
                             className="text-left text-lg font-bold px-6 py-3 flex flex-row items-center"

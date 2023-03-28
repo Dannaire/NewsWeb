@@ -11,7 +11,13 @@ function Nav() {
   return (
     <div>
       <nav
+<<<<<<< HEAD
         className="bg-navbcg border-gray-200 dark:bg-gray-900 h-20 w-full fixed z-10" 
+=======
+        className={`bg-navbcg border-gray-200 h-20 w-full fixed z-10 ${
+          hasScrolled ? "scrolled" : ""
+        }`}
+>>>>>>> ea7f2110d9ac649301c5d20c25e1bb80bad9d25d
       >
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
           <Link href="/" class="flex items-center">

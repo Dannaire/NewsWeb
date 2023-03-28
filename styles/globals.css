@@ -25,6 +25,18 @@
 .nav {
   color: white;
 }
+@media (min-width: 320px) and (max-width: 768px) {
+  .imgcard {
+    max-height: 11rem;
+  }
+  .herowrap{
+    max-height: 11rem;
+    max-width: 80%;
+  }
+  .imghero{
+    max-width: 80%;
+  }
+}
 .slick-dots li button:before {
   @apply dark:!text-white;
 }
