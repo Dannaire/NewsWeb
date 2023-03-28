@@ -368,7 +368,7 @@ export default function Detail() {
                       <h2 className="text-lg font-bold">Advertisement</h2>
                     </div>
                     <ul className="post-number">
-                      <li className="border-b border-gray-100 hover:bg-gray-50">
+                      <li className="border-b border-gray-100 hover:bg-gray-100 duration-300 transition-colors">
                         <a
                           className="text-lg font-bold px-6 py-3 flex flex-row items-center"
                           href="#"

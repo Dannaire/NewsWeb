@@ -135,7 +135,7 @@ function Bloglink() {
                   </div>{" "}
                   {searchResults.slice(0, 4).map((result) => (
                     <ul key={result.id} className="post-number">
-                      <li className="border-b border-gray-100 hover:bg-gray-50">
+                      <li className="border-b border-gray-100 hover:bg-gray-100 transition-colors duration-300">
                         <button
                           className="text-lg text-left font-bold px-6 py-3 flex flex-row items-center"
                           onClick={() => handleNewsClick(result.id)}
