@@ -28,9 +28,11 @@ Vercel: https://daily-news-actual.vercel.app/
 
 ## Home
 ![Screenshot (1104)](https://user-images.githubusercontent.com/99931023/228116492-414978bc-d520-4a12-8041-9650c3536356.png)
+![mobile (7)](https://user-images.githubusercontent.com/101534120/228140642-f649a71f-8916-40cc-8576-fc6587d30a2d.png)
 
 ## Detail
-![Screenshot (1105)](https://user-images.githubusercontent.com/99931023/228116504-dcbb07f2-3a38-4568-bc39-7557fb055de6.png)
+![mobile (6)](https://user-images.githubusercontent.com/101534120/228140316-67b3f8bf-c5fd-40e4-927e-1c777b1e93c9.png)
+
 
 ## Category
 ![Screenshot (1106)](https://user-images.githubusercontent.com/99931023/228116515-12cdac5c-3b79-4377-9fda-22fed21e1e39.png)
