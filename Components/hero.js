@@ -80,7 +80,7 @@ function hero() {
             </div>
           ))}
         </Slider>
-      </section> \
+      </section> 
 
     </section>
 
