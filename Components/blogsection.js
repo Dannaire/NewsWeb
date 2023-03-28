@@ -26,7 +26,7 @@ function Blogsection() {
   }, []);
   return (
     <>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white dark:bg-navbcg">
         <div className="container w-full px-8 py-10 mx-auto ">
           <div className="lg:flex lg:-mx-6">
             <div className="lg:w-3/4 lg:px-6">

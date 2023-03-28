@@ -30,7 +30,7 @@ function Nav() {
   return (
     <div>
       <nav
-        className={`bg-navbcg border-gray-200 dark:bg-gray-900 h-20 w-full fixed z-10 ${
+        className={`bg-navbcg border-gray-200 h-20 w-full fixed z-10 ${
           hasScrolled ? "scrolled" : ""
         }`}
       >
