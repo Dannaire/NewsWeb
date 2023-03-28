@@ -57,7 +57,7 @@ export default function Detail() {
                     {/* Post content */}
                     <div className="leading-relaxed pb-4">
                       <p className="mb-5">{result.desc}</p>
-                      <h2 className="text-xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">
+                      <h2 className="text-xl leading-normal mb-2 font-semibold text-gray-800 ">
                         {result.subheading}
                       </h2>
                       <p className="mb-5">{result.desc}</p>
