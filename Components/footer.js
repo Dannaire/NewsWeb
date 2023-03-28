@@ -10,7 +10,7 @@ function footer() {
 
   return (
     <div>
-      <footer className="bg-white dark:bg-gray-900">
+      <footer className="bg-gray-900">
         <div className="container p-6 mx-auto">
           <div className="lg:flex">
             <div className="w-full -mx-6 lg:w-2/5">
@@ -19,7 +19,7 @@ function footer() {
                 <div className="flex mt-6 -mx-2">
                   <Link
                     href="#"
-                    className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                    className="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
                     aria-label="Reddit"
                   >
                     <svg
@@ -34,7 +34,7 @@ function footer() {
 
                   <Link
                     href="#"
-                    className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                    className="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
                     aria-label="Facebook"
                   >
                     <svg
@@ -49,7 +49,7 @@ function footer() {
 
                   <Link
                     href="#"
-                    className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                    className="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
                     aria-label="Github"
                   >
                     <svg
