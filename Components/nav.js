@@ -10,9 +10,7 @@ function Nav() {
 
   return (
     <div>
-      <nav
-        className="bg-navbcg border-gray-200 dark:bg-gray-900 h-20 w-full fixed z-10" 
-      >
+      <nav className="bg-navbcg border-gray-200 dark:bg-gray-900 h-20 w-full fixed z-10">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
           <Link href="/" class="flex items-center">
             <img
@@ -24,8 +22,8 @@ function Nav() {
               Daily News Actual
             </span>
           </Link>
-          <div className="flex items-center">
-            <ul className="flex flex-row my-5 mr-6 space-x-8 text-sm font-medium  ">
+          <div className="flex items-center navscroll">
+            <ul className="flex flex-row my-4 mr-6 space-x-8 text-sm font-medium  ">
               <li>
                 <Link href="/" className="nav" aria-current="page">
                   Home

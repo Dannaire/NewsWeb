@@ -40,7 +40,7 @@ export default function Detail() {
               {/* Left */}
               <div className="flex-shrink max-w-full w-full lg:w-2/3 overflow-hidden">
                 <div className="w-full py-3 mb-3">
-                  <h2 className="text-gray-800 text-3xl font-bold dark:text-gray-100">
+                  <h2 className="text-gray-800 text-3xl font-bold ">
                     <span className="inline-block h-5 border-l-3 border-red-600 " />
                     {result.headline}
                   </h2>
@@ -57,7 +57,7 @@ export default function Detail() {
                     {/* Post content */}
                     <div className="leading-relaxed pb-4">
                       <p className="mb-5">{result.desc}</p>
-                      <h2 className="text-xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">
+                      <h2 className="text-xl leading-normal mb-2 font-semibold text-gray-800 ">
                         {result.subheading}
                       </h2>
                       <p className="mb-5">{result.desc}</p>
@@ -69,7 +69,7 @@ export default function Detail() {
                         />
                         {/* <figcaption> Type here your description</figcaption> */}
                       </figure>
-                      <h3 className="text-2xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">
+                      <h3 className="text-2xl leading-normal mb-2 font-semibold text-gray-800 ">
                         Berita Hari Ini
                       </h3>
                       {result.conten.map((paragraph, index) => (
@@ -247,7 +247,7 @@ export default function Detail() {
                       </div>
                       <div className="flex-shrink max-w-full px-4 w-2/3 sm:w-3/4 md:w-10/12">
                         {/*name*/}
-                        <p className="text-lg leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">
+                        <p className="text-lg leading-normal mb-2 font-semibold text-gray-800   ">
                           <span className="font-semibold">{result.author}</span>
                         </p>
                         <p>{result.date}</p>
@@ -256,15 +256,15 @@ export default function Detail() {
                    {/* Comments */}
       <div id="comments" className="pt-16">
         {/*title*/}
-        <h3 className="text-2xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">Comments</h3>
+        <h3 className="text-2xl leading-normal mb-2 font-semibold text-gray-800 ">Comments</h3>
         {/*comment list*/}
         <ol className="mb-4">
           <li className="py-2 mt-6">
-            <div className="pb-4 border-b border-gray-200 dark:border-gray-600 border-dashed">
+            <div className="pb-4 border-b border-gray-200 border-dashed">
               <footer>
                 <img className="w-20 h-20 border border-gray-200 dark:border-gray-700 max-w-full float-left mr-4" src={result.image2} alt="avatar" />
                 <div>
-                  <p className="text-lg leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">{result.author}</p>
+                  <p className="text-lg leading-normal mb-2 font-semibold text-gray-800 ">{result.author}</p>
                   <span className="md:float-right text-sm">
                     <time >{result.date}</time>
                   </span>
@@ -282,7 +282,7 @@ export default function Detail() {
 
                       {/*comment form*/}
                       <div id="comment-form" className="mt-12">
-                        <h4 className="text-2xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">
+                        <h4 className="text-2xl leading-normal mb-2 font-semibold text-gray-800 ">
                           LEAVE A REPLY
                         </h4>
                         <p className="mb-5">
@@ -293,7 +293,7 @@ export default function Detail() {
                             <div className="mt-2" />
                             <div className="mb-6">
                               <textarea
-                                className="w-full leading-5 relative py-3 px-5 text-gray-800 bg-white border border-gray-100 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600"
+                                className="w-full leading-5 relative py-3 px-5 text-gray-800 bg-white border border-gray-100 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 "
                                 placeholder="Comment"
                                 aria-label="insert comment"
                                 rows={4}
@@ -303,7 +303,7 @@ export default function Detail() {
                             </div>
                             <div className="mb-6">
                               <input
-                                className="w-full leading-5 relative py-3 px-5 text-gray-800 bg-white border border-gray-100 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600"
+                                className="w-full leading-5 relative py-3 px-5 text-gray-800 bg-white border border-gray-100 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 "
                                 placeholder="Name"
                                 aria-label="name"
                                 type="text"
@@ -312,7 +312,7 @@ export default function Detail() {
                             </div>
                             <div className="mb-6">
                               <input
-                                className="w-full leading-5 relative py-3 px-5 text-gray-800 bg-white border border-gray-100 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600"
+                                className="w-full leading-5 relative py-3 px-5 text-gray-800 bg-white border border-gray-100 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 "
                                 placeholder="Email"
                                 aria-label="email"
                                 type="text"
@@ -321,7 +321,7 @@ export default function Detail() {
                             </div>
                             <div className="mb-6">
                               <input
-                                className="w-full leading-5 relative py-3 px-5 text-gray-800 bg-white border border-gray-100 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600"
+                                className="w-full leading-5 relative py-3 px-5 text-gray-800 bg-white border border-gray-100 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 "
                                 placeholder="Website:"
                                 aria-label="website"
                                 type="text"
@@ -348,7 +348,7 @@ export default function Detail() {
                             <div className="mb-6">
                               <button
                                 type="submit"
-                                className="flex items-center py-3 px-5 leading-5 text-gray-100 bg-black hover:text-white hover:bg-gray-900 hover:ring-0 focus:outline-none focus:ring-0"
+                                className="flex items-center py-3 px-5 leading-5 text-gray-100 bg-gray-900 hover:text-white hover:bg-gray-900 hover:ring-0 focus:outline-none focus:ring-0"
                               >
                                 Post Comment
                               </button>
