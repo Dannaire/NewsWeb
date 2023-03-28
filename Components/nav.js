@@ -25,7 +25,7 @@ function Nav() {
             </span>
           </Link>
           <div className="flex items-center navscroll">
-            <ul className="flex flex-row my-5 mr-6 space-x-8 text- font-medium  ">
+            <ul className="flex flex-row my-4 mr-6 space-x-8 text-sm font-medium  ">
               <li>
                 <Link href="/" className="nav" aria-current="page">
                   Home

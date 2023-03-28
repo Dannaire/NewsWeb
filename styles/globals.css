@@ -28,7 +28,7 @@
 @media (max-width: 640px) {
   .navscroll {
     overflow-x: auto;
-    white-space: nowrap;
+    white-space: wrap;
     -webkit-overflow-scrolling: touch;
   }
   .navscroll::-webkit-scrollbar {
