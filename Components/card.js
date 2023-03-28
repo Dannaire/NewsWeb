@@ -124,10 +124,10 @@ function Card() {
             <button
               key={i}
               onClick={() => handlePageChange(i + 1)}
-              className={`mx-1 font-bold py-2 px-4 rounded ${
+              className={`mx-1 mb-3 font-bold py-1 px-3 rounded-full hover:bg-gray-500 transition-colors duration-300 ${
                 currentPage === i + 1
-                  ? "bg-gray-800 text-white"
-                  : "bg-gray-300 text-gray-800"
+                  ? "bg-gray-900 text-white"
+                  : "bg-white text-gray-900 border border-gray-900"
               }`}
             >
               {i + 1}
