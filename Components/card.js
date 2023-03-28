@@ -49,7 +49,7 @@ function Card() {
             </div>
           </h2>
         </div>
-        <div className="grid gap-5 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+        <div className="grid gap-5 lg:grid-cols-3 sm:max-w-full sm:mx-auto lg:max-w-full sm:grid-cols-2 min-[320px]:grid-cols-2">
           {paginatedResults.map((result) => (
             <div
               key={result.id}
@@ -58,7 +58,7 @@ function Card() {
               <button onClick={() => handleNewsClick(result.id)}>
                 <img
                   src={result.image}
-                  className="object-cover w-full h-64 rounded"
+                  className="object-cover w-full h-64 rounded min-[320px]:max-h-48"
                   alt=""
                 />
               </button>
