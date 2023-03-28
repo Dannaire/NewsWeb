@@ -8,7 +8,7 @@
 }
 
 .footer {
-  @apply block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline;
+  @apply block mt-2 text-sm text-gray-400 hover:underline;
 }
 .bg-gradient-cover {
   background-color: transparent;
@@ -26,5 +26,5 @@
   color: white;
 }
 .slick-dots li button:before {
-  @apply !text-white;
+  @apply dark:!text-white;
 }

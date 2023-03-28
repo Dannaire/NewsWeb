@@ -8,7 +8,7 @@ function hero() {
   const [searchResults, setSearchResults] = useState([]);
 
   const url = "/data/data.json";
-  
+
 
   useEffect(() => {
     async function fetchData() {
