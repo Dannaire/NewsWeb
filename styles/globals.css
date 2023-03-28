@@ -37,6 +37,19 @@
     max-width: 80%;
   }
 }
+@media (min-width: 768px) and (max-width: 1014px) {
+  .imgcard {
+    max-height: 15rem;
+  }
+  .herowrap{
+    max-height: 16rem;
+    max-width: 80%;
+  }
+  .imghero{
+    max-width: 80%;
+  }
+
+}
 .slick-dots li button:before {
   @apply dark:!text-white;
 }

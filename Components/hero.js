@@ -41,7 +41,7 @@ function hero() {
   };
 
   return (
-    <section className="content mx auto mt-8 bg-white dark:bg-navbcg z-0 lg:h-full min-[320px]:h-56">
+    <section className="content mx auto mt-8 bg-white dark:bg-navbcg z-0 lg:h-full min-[320px]:h-56 min-[768px]:h-72">
       <section className="content mt-6 bg-white dark:bg-navbcg w-11/12 mx-auto z-0 herowrap">
         <div className="text-white text-3xl font-bold py-6 pl-4"></div>
         <Slider {...setting} dotsClass="slick-dots">
