@@ -8,31 +8,10 @@ function Nav() {
     router.push(`/category/${category}`);
   };
 
-  const [hasScrolled, setHasScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.pageYOffset;
-      if (scrollTop > 0 && !hasScrolled) {
-        setHasScrolled(true);
-      } else if (scrollTop === 0 && hasScrolled) {
-        setHasScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [hasScrolled]);
-
   return (
     <div>
       <nav
-        className={`bg-navbcg border-gray-200 h-20 w-full fixed z-10 ${
-          hasScrolled ? "scrolled" : ""
-        }`}
+        className="bg-navbcg border-gray-200 dark:bg-gray-900 h-20 w-full fixed z-10" 
       >
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
           <Link href="/" class="flex items-center">
